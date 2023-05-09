@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Güneşli";
+"c01n" = "Temiz";
+"c02d" = "Bulutlu";
+"c02n" = "Bulutlu";
+"c03d" = "Bulutlu";
+"c03n" = "Bulutlu";
+"c04d" = "Bulutlu";
+"c04n" = "Bulutlu";
+"u00d" = "Yağış";
+"u00n" = "Yağış";
+"a01d" = "Sis";
+"a01n" = "Sis";
+"a02d" = "Duman";
+"a02n" = "Duman";
+"a03d" = "Pus";
+"a03n" = "Pus";
+"a04d" = "Kum/toz";
+"a04n" = "Kum/toz";
+"a05d" = "Sis";
+"a05n" = "Sis";
+"a06d" = "Sis";
+"a06n" = "Sis";
+"s01d" = "Hafif kar";
+"s01n" = "Hafif kar";
+"s02d" = "Kar";
+"s02n" = "Kar";
+"s03d" = "Yoğun kar";
+"s03n" = "Yoğun kar";
+"s04d" = "Yağmurlu kar";
+"s04n" = "Yağmurlu kar";
+"s05d" = "Sulu kar";
+"s05n" = "Sulu kar";
+"s06d" = "Kar Yağışı";
+"s06n" = "Kar Yağışı";
+"r01d" = "Hafif yağmur";
+"r01n" = "Hafif yağmur";
+"r02d" = "Yağmur";
+"r02n" = "Yağmur";
+"r03d" = "Şiddetli yağmur";
+"r03n" = "Şiddetli yağmur";
+"r04d" = "Hafif yağmur";
+"r04n" = "Hafif yağmur";
+"r05d" = "Yağmur";
+"r05n" = "Yağmur";
+"r06d" = "Şiddetli yağmur";
+"r06n" = "Şiddetli yağmur";
+"f01d" = "Yağmur";
+"f01n" = "Yağmur";
+"d01d" = "Çiseleme";
+"d01n" = "Çiseleme";
+"d02d" = "Çiseleme";
+"d02n" = "Çiseleme";
+"d03d" = "Çiseleme";
+"d03n" = "Çiseleme";
+"t01d" = "Yağmurlu fırtına";
+"t01n" = "Yağmurlu fırtına";
+"t02d" = "Yağmurlu fırtına";
+"t02n" = "Yağmurlu fırtına";
+"t03d" = "Duşlu fırtına";
+"t03n" = "Duşlu fırtına";
+"t04d" = "Çiseleyen yağmur";
+"t04n" = "Çiseleyen yağmur";
+"t05d" = "Dolu ile fırtına";
+"t05n" = "Dolu ile fırtına";
+
+"feels_like" = "Gibi hissettiriyor";
+"sunrise" = "Gündoğumu";
+"sunset" = "Gün batımı";
+
+"now" = "Şimdi";
+"morning" = "Sabah";
+"day" = "Gün";
+"evening" = "Akşam";
+"night" = "Gece";
+
+"units" = "Birimler";
+"temp" = "Sıcaklık";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Rüzgar";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Basınç";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "Görünürlük";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "düşük";
+"moderate" = "ılımlı";
+"high" = "yüksek";
+"humidity" = "Nem";
+"precipitation" = "Yağış";
+"mm" = "mm";
+
+"weather_feeling" = "Hava hissi";
+"hotter" = "Daha sıcak";
+"colder" = "Daha soğuk";
+"weather_feeling_description" = "Sıcaklığı gerçekte olduğundan daha sıcak veya daha soğuk hissetme eğiliminde olup olmadığınızı belirtin. Karakteri gösterirken seçiminizi dikkate alacağız.";
+
+"person" = "Kişi";
+"show_person" = "Kişiyi göster";
+"sex" = "Cinsiyet";
+"male" = "erkek";
+"female" = "kadın";
+"appearance" = "Görünüş";
+"skin_color" = "Ten rengi";
+"haircut" = "Saç Kesimi";
+"haircut_color" = "Saç kesimi rengi";
+"beard" = "Sakal";
+"beard_color" = "Sakal rengi";
+"wardrobe" = "Gardırop";
+"outerwear" = "Dış Giyim";
+"top" = "Üst";
+"bottom" = "Alt";
+"shoes" = "Ayakkabılar";
+"accessories" = "Aksesuarlar";
+
+"notifications" = "Bildirimler";
+"time" = "Zaman";
+
+"support" = "Destek";
+"rate_app" = "Uygulamayı değerlendirin";
+"write_to_dev" = "Geliştiricilere yazın";
+
+"my_geo" = "Coğrafi konumum";
+"search_placeholder" = "Bir şehir arayın";
+
+"internet_error_title" = "Bağlantı hatası";
+"internet_error_text" = "Oops! İnternet yok gibi görünüyor. Lütfen bağlantınızı kontrol edin.";
+"geo_error_title" = "Coğrafi konum kullanılamıyor";
+"geo_error_text" = "Üzgünüz, konumunuzu alamıyorum. Lütfen sistem ayarlarından konumunuza erişime izin verin.";
+"unknown_error_title" = "Bir şeyler ters gitti.";
+"unknown_error_text" = "Üzgünüm, bir şeyler ters gitti. Lütfen bizimle iletişime geçin, düzelteceğiz.";
+"notifications_error_title" = "İzin hatası";
+"notifications_error_text" = "Lütfen ayarlardan bildirimler için izninizi kontrol edin.";
+"go_to_settings" = "Ayarlara git";
+"try_again" = "Tekrar deneyin";
+
+"rate_title" = "TheWear'ı beğendiniz mi?";
+"rate_description" = "Uygulamayı beğendiyseniz veya söyleyecek bir şeyiniz varsa, duymak isteriz.";
+"go_to_appstore" = "AppStore'a git";
+
+"extremely_cold" = "Dışarısı çok soğuk! Kalın kışlık giysiler giyin.";
+"frosty" = "Dışarısı buz gibi! Sıcak tutan bir ceket, bir atkı, bir şapka ve eldiven giyin.";
+"freezing" = "Hava buz gibi! Palto veya ceket, şapka, atkı ve eldiven giyin.";
+"chilly" = "Hafif bir ceket veya palto giy, dışarısı soğuk.";
+"less_chilly" = "Soğuk hissediyor, bir palto veya kapüşonlu hafif bir ceket giyin.";
+"cool" = "Soğuk hissediyor, kapüşonlu hafif bir ceket giyin.";
+"feels_warm" = "Sıcak hissediyor, kapüşonlu hafif bir ceket giyin.";
+"warm_man" = "Dışarısı sıcak, kapüşonlu bir sweatshirt ya da kot pantolon giyin.";
+"warm_woman" = "Dışarısı sıcak, uzun bir etekle kapüşonlu veya sweatshirt giyin.";
+"feels_warmer_man" = "Sıcak hissediyor, kot pantolon veya şort ile sweatshirt giyin.";
+"feels_warmer_woman" = "Sıcak hissettiriyor, etekle bir bluz giy.";
+"really_warm_man" = "Dışarısı gerçekten sıcak, kot pantolon veya şortla uzun kollu bir ceket giyin.";
+"really_warm_woman" = "Dışarısı gerçekten sıcak, etekle birlikte bir elbise veya tunik giyin.";
+"hot_man" = "Dışarısı sıcak, kot pantolon ya da belki şortla bir tişört giyin.";
+"hot_woman" = "Dışarısı sıcak, hafif bir etekle bir elbise veya bluz giyin.";
+"feels_hot_man" = "Çok sıcak! En hafif kıyafetleri giy.";
+"feels_hot_woman" = "Çok sıcak! En hafif kıyafetleri giy.";
+
+"extremely_cold_short" = "Çok soğuk! Kalın giysiler giy.";
+"frosty_short" = "Ayaz hissediyorum! Sıcak giysiler giyin.";
+"freezing_short" = "Dondurucu! Sıcak tutan giysiler giyin.";
+"chilly_short" = "Hafif bir ceket veya palto giy.";
+"less_chilly_short" = "Kapüşonlu bir mont giy.";
+"cool_short" = "Kapüşonlu hafif bir ceket giy.";
+"feels_warm_short" = "Kapüşonlu hafif bir ceket giy.";
+"warm_man_short" = "Kapüşonlu bir kot pantolon giyin.";
+"warm_woman_short" = "Uzun bir etekle kapüşonlu bir sweatshirt giyin.";
+"feels_warmer_man_short" = "Kot pantolon ile sweatshirt giyin.";
+"feels_warmer_woman_short" = "Etek ile bluz giyin.";
+"really_warm_man_short" = "Şort ile uzun kollu bir elbise giyin.";
+"really_warm_woman_short" = "Etek ile tunik giyin.";
+"hot_man_short" = "Şort ile tişört giyin.";
+"hot_woman_short" = "Hafif bir etekle bir bluz giyin.";
+"feels_hot_man_short" = "Sıcak hissettiriyor! En hafif giysileri giyin.";
+"feels_hot_woman_short" = "Sıcak hissettiriyor! En hafif giysileri giyin.";
+
+"gale_force_wind" = "Rüzgarın şiddetini düşün.";
+"strong_wind" = "Kuvvetli rüzgara dikkat et.";
+
+"rain_morning" = "Sabah yağmur bekleniyor.";
+"rain_afternoon" = "Öğleden sonra yağmur bekleniyor.";
+"rain_evening" = "Akşam saatlerinde yağmur bekleniyor.";
+"rain_night" = "Gece yağmur bekleniyor.";
+"rain_day" = "Gün içinde yağmur bekleniyor.";
+"rain_morning_afternoon" = "Sabah ve öğleden sonra yağmur bekleniyor.";
+"rain_morning_evening" = "Sabah ve akşam yağmur bekleniyor.";
+"rain_afternoon_evening" = "Öğleden sonra ve akşam saatlerinde yağmur bekleniyor.";
+"umbrella" = "Şemsiye almayı unutmayın!";
+
+"snow_morning" = "Sabah kar bekleniyor.";
+"snow_afternoon" = "Öğleden sonra kar bekleniyor.";
+"snow_evening" = "Akşam saatlerinde kar bekleniyor.";
+"snow_night" = "Gece kar bekleniyor.";
+"snow_day" = "Gün içinde kar yağışı bekleniyor.";
+"snow_morning_afternoon" = "Sabah ve öğleden sonra kar bekleniyor.";
+"snow_morning_evening" = "Sabah ve akşam kar yağışı bekleniyor.";
+"snow_afternoon_evening" = "Öğleden sonra ve akşam saatlerinde kar bekleniyor.";
+"rain_for_hour" = "Yakın gelecekte yağmur bekleniyor.";
+"snow_for_hour" = "Yakın gelecekte kar yağışı bekleniyor.";
+"snow_rain" = "Kar ve yağmur bekleniyor.";
+
+"check_forecast" = "Uygulamadan hava durumunu kontrol edin.";
+"weather_forecast" = "Hava Durumu";
+"forecast_today" = "Bugün için sıcaklık gibi hissediyorum";
+"forecast_next_hour" = "Önümüzdeki bir saat boyunca sıcaklık";
+"min" = "dk";
+"max" = "maksimum";
+"min_temp_is" = "Minimum sıcaklık";
+"max_temp_is" = "maksimum sıcaklık";
+
+"explanation_title" = "Gardırobunuz";
+"explanation_text" = "Ana ekranda karakterinizin görünümünü oluşturmak için herhangi bir kıyafet ve renk seçebilirsiniz.";
+
+"current_weather_widget_title" = "Güncel hava durumu";
+"current_weather_widget_description" = "Mevcut konumunuz veya gösterilen son şehir için gerçek sıcaklığı ve kıyafet önerilerini gösterir.";
+"current_weather_widget_placeholder" = "Hava durumu yüklenemedi. Uygulamayı açın.";

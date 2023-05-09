@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Saulėta";
+"c01n" = "Aišku";
+"c02d" = "Debesuota";
+"c02n" = "Debesuota";
+"c03d" = "Debesuota";
+"c03n" = "Debesuota";
+"c04d" = "Debesuota";
+"c04n" = "Debesuota";
+"u00d" = "Krituliai";
+"u00n" = "Krituliai";
+"a01d" = "Rūkas";
+"a01n" = "Rūkas";
+"a02d" = "Rūkyti";
+"a02n" = "Rūkyti";
+"a03d" = "Migla";
+"a03n" = "Migla";
+"a04d" = "Smėlis/dulkės";
+"a04n" = "Smėlis/dulkės";
+"a05d" = "Rūkas";
+"a05n" = "Rūkas";
+"a06d" = "Rūkas";
+"a06n" = "Rūkas";
+"s01d" = "Šviesus sniegas";
+"s01n" = "Šviesus sniegas";
+"s02d" = "Sniegas";
+"s02n" = "Sniegas";
+"s03d" = "Stiprus sniegas";
+"s03n" = "Stiprus sniegas";
+"s04d" = "Sniegas su lietumi";
+"s04n" = "Sniegas su lietumi";
+"s05d" = "Šlapdriba";
+"s05n" = "Šlapdriba";
+"s06d" = "Sniegas";
+"s06n" = "Sniegas";
+"r01d" = "Lengvas lietus";
+"r01n" = "Lengvas lietus";
+"r02d" = "Lietus";
+"r02n" = "Lietus";
+"r03d" = "Liūtis";
+"r03n" = "Liūtis";
+"r04d" = "Lengvas lietus";
+"r04n" = "Lengvas lietus";
+"r05d" = "Lietus";
+"r05n" = "Lietus";
+"r06d" = "Liūtis";
+"r06n" = "Liūtis";
+"f01d" = "Lietus";
+"f01n" = "Lietus";
+"d01d" = "Dulksna";
+"d01n" = "Dulksna";
+"d02d" = "Dulksna";
+"d02n" = "Dulksna";
+"d03d" = "Dulksna";
+"d03n" = "Dulksna";
+"t01d" = "Perkūnija su lietumi";
+"t01n" = "Perkūnija su lietumi";
+"t02d" = "Perkūnija su lietumi";
+"t02n" = "Perkūnija su lietumi";
+"t03d" = "Perkūnija su dušu";
+"t03n" = "Perkūnija su dušu";
+"t04d" = "Perkūnija su šlapdriba";
+"t04n" = "Perkūnija su šlapdriba";
+"t05d" = "Perkūnija su kruša";
+"t05n" = "Perkūnija su kruša";
+
+"feels_like" = "Jaučiasi";
+"sunrise" = "Saulėtekis";
+"sunset" = "Saulėlydis";
+
+"now" = "Dabar";
+"morning" = "Rytas";
+"day" = "Diena";
+"evening" = "Vakaras";
+"night" = "Naktis";
+
+"units" = "Vienetai";
+"temp" = "Temperatūra";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Vėjas";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Slėgis";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "Matomumas";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "žemas";
+"moderate" = "saikingai";
+"high" = "aukštas";
+"humidity" = "Drėgmė";
+"precipitation" = "Krituliai";
+"mm" = "mm";
+
+"weather_feeling" = "Oro jausmas";
+"hotter" = "Karštesnis";
+"colder" = "Šalčiau";
+"weather_feeling_description" = "Nesvarbu, ar jaučiate, kad temperatūra yra aukštesnė, ar žemesnė, nei yra iš tikrųjų, nurodykite tai. Mes apsvarstysime jūsų pasirinkimą rodydami personažą.";
+
+"person" = "Asmuo";
+"show_person" = "Rodyti asmenį";
+"sex" = "Lytis";
+"male" = "patinas";
+"female" = "moteris";
+"appearance" = "Išvaizda";
+"skin_color" = "Odos spalva";
+"haircut" = "Kirpimas";
+"haircut_color" = "Plaukų kirpimo spalva";
+"beard" = "Barzda";
+"beard_color" = "Barzdos spalva";
+"wardrobe" = "Drabužinė";
+"outerwear" = "Viršutiniai drabužiai";
+"top" = "Į viršų";
+"bottom" = "Apačia";
+"shoes" = "Avalynė";
+"accessories" = "Priedai";
+
+"notifications" = "Pranešimai";
+"time" = "Laikas";
+
+"support" = "Palaikymas";
+"rate_app" = "Įvertinkite programą";
+"write_to_dev" = "Rašykite kūrėjams";
+
+"my_geo" = "Mano geografinė padėtis";
+"search_placeholder" = "Ieškokite miesto";
+
+"internet_error_title" = "Ryšio klaida";
+"internet_error_text" = "Oi! Panašu, kad interneto nėra. Prašome patikrinti ryšį.";
+"geo_error_title" = "Geografinė padėtis nepasiekiama";
+"geo_error_text" = "Atsiprašome, negaliu nustatyti jūsų vietos. Leiskite pasiekti savo vietą sistemos nustatymuose.";
+"unknown_error_title" = "Kažkas nutiko...";
+"unknown_error_text" = "Atsiprašome, kažkas nutiko. Prašome susisiekti su mumis ir mes tai sutvarkysime.";
+"notifications_error_title" = "Leidimo klaida";
+"notifications_error_text" = "Patikrinkite savo leidimą gauti pranešimus nustatymuose.";
+"go_to_settings" = "Eikite į nustatymus";
+"try_again" = "Pabandykite dar kartą";
+
+"rate_title" = "Ar jums patinka TheWear?";
+"rate_description" = "Nesvarbu, ar jums patinka programa, ar turite ką pasakyti, mes norėtume tai išgirsti.";
+"go_to_appstore" = "Eikite į AppStore";
+
+"extremely_cold" = "Lauke nepaprastai šalta! Apsirenkite šiltus žieminius drabužius.";
+"frosty" = "Lauke jaučiasi šaltis! Apsivilkite šiltą striukę, šaliką, kepurę ir pirštines.";
+"freezing" = "Šalta! Apsivilkite paltą arba striukę, kepurę, šaliką ir pirštines.";
+"chilly" = "Apsivilkite lengvą striukę arba paltą, lauke jaučiasi šaltis.";
+"less_chilly" = "Jaučiasi vėsu, apsivilkite paltą arba lengvą striukę su gobtuvu.";
+"cool" = "Jaučiasi vėsu, apsivilkite lengvą striukę su gobtuvu.";
+"feels_warm" = "Jaučiasi šilta, apsivilkite lengvą striukę su gobtuvu.";
+"warm_man" = "Lauke šilta, apsivilk megztinį ar megztinį su džinsais.";
+"warm_woman" = "Lauke šilta, apsivilk gobtuvą arba megztinį su ilgu sijonu.";
+"feels_warmer_man" = "Jaučiasi šiltai, apsivilkite džemperį su džinsais arba šortais.";
+"feels_warmer_woman" = "Jaučiasi šilta, apsivilk palaidinę su sijonu.";
+"really_warm_man" = "Lauke labai šilta, apsivilkite megztinį ilgomis rankovėmis su džinsais arba šortais.";
+"really_warm_woman" = "Lauke tikrai šilta, apsivilkite suknelę arba tuniką su sijonu.";
+"hot_man" = "Lauke karšta, apsivilk marškinėlius su džinsais, o gal šortus.";
+"hot_woman" = "Lauke karšta, apsivilkite suknelę arba palaidinę su lengvu sijonu.";
+"feels_hot_man" = "Jaučiasi karšta! Apsirenkite lengviausius drabužius.";
+"feels_hot_woman" = "Jaučiasi karšta! Apsirenkite lengviausius drabužius.";
+
+"extremely_cold_short" = "Labai šalta! Apsirenkite šiltus drabužius.";
+"frosty_short" = "Jaučiasi šaltis! Apsirenkite šiltus drabužius.";
+"freezing_short" = "Šalta! Apsirenkite šiltus drabužius.";
+"chilly_short" = "Apsivilkite lengvą striukę arba paltą.";
+"less_chilly_short" = "Apsivilkite paltą su gobtuvu.";
+"cool_short" = "Apsivilkite lengvą striukę su gobtuvu.";
+"feels_warm_short" = "Apsivilkite lengvą striukę su gobtuvu.";
+"warm_man_short" = "Apsivilkite džemperį su gobtuvu ir džinsus.";
+"warm_woman_short" = "Apsivilkite džemperį su gobtuvu ir ilgą sijoną.";
+"feels_warmer_man_short" = "Apsivilkite džemperį su džinsais.";
+"feels_warmer_woman_short" = "Apsivilkite palaidinę su sijonu.";
+"really_warm_man_short" = "Apsivilkite palaidinę ilgomis rankovėmis su šortais.";
+"really_warm_woman_short" = "Apsivilkite tuniką su sijonu.";
+"hot_man_short" = "Apsivilkite marškinėlius su šortais.";
+"hot_woman_short" = "Apsivilkite palaidinę su lengvu sijonu.";
+"feels_hot_man_short" = "Jaučiasi karšta! Apsirenkite lengviausius drabužius.";
+"feels_hot_woman_short" = "Jaučiasi karšta! Apsirenkite lengviausius drabužius.";
+
+"gale_force_wind" = "Protas audringas vėjas.";
+"strong_wind" = "Protas stiprus vėjas.";
+
+"rain_morning" = "Ryte numatomas lietus.";
+"rain_afternoon" = "Po pietų numatomas lietus.";
+"rain_evening" = "Vakare numatomas lietus.";
+"rain_night" = "Naktį numatomas lietus.";
+"rain_day" = "Dieną numatomas lietus.";
+"rain_morning_afternoon" = "Lietus numatomas ryte ir po pietų.";
+"rain_morning_evening" = "Ryte ir vakare numatomas lietus.";
+"rain_afternoon_evening" = "Po pietų ir vakare numatomas lietus.";
+"umbrella" = "Nepamirškite skėčio!";
+
+"snow_morning" = "Ryte numatomas sniegas.";
+"snow_afternoon" = "Po pietų numatomas sniegas.";
+"snow_evening" = "Vakare numatomas sniegas.";
+"snow_night" = "Naktį numatomas sniegas.";
+"snow_day" = "Dieną numatomas sniegas.";
+"snow_morning_afternoon" = "Ryte ir po pietų numatomas sniegas.";
+"snow_morning_evening" = "Ryte ir vakare numatomas sniegas.";
+"snow_afternoon_evening" = "Po pietų ir vakare numatomas sniegas.";
+"rain_for_hour" = "Artimiausiu metu tikimasi lietaus.";
+"snow_for_hour" = "Artimiausiu metu numatomas sniegas.";
+"snow_rain" = "Numatomas sniegas ir lietus.";
+
+"check_forecast" = "Patikrinkite prognozę programoje.";
+"weather_forecast" = "Orų prognozė";
+"forecast_today" = "Jaučiasi kaip temperatūra šiandien";
+"forecast_next_hour" = "Artimiausios valandos temperatūra yra";
+"min" = "min";
+"max" = "maks";
+"min_temp_is" = "Minimali temperatūra yra";
+"max_temp_is" = "maksimali temperatūra yra";
+
+"explanation_title" = "Jūsų drabužių spinta";
+"explanation_text" = "Galite pasirinkti bet kokius drabužius ir spalvas, kad sukurtumėte savo veikėjo įvaizdį pagrindiniame ekrane.";
+
+"current_weather_widget_title" = "Dabartiniai orai";
+"current_weather_widget_description" = "Rodoma faktinė temperatūra ir drabužių rekomendacijos dabartinėje jūsų buvimo vietoje arba paskutiniame rodytame mieste.";
+"current_weather_widget_placeholder" = "Nepavyko įkelti orų. Atidarykite programą.";

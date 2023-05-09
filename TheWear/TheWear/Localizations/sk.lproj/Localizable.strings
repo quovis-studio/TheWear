@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Slnečno";
+"c01n" = "Jasný";
+"c02d" = "Zamračené";
+"c02n" = "Zamračené";
+"c03d" = "Zamračené";
+"c03n" = "Zamračené";
+"c04d" = "Zatiahnuté";
+"c04n" = "Zatiahnuté";
+"u00d" = "Zrážky";
+"u00n" = "Zrážky";
+"a01d" = "Hmla";
+"a01n" = "Hmla";
+"a02d" = "Dym";
+"a02n" = "Dym";
+"a03d" = "Haze";
+"a03n" = "Haze";
+"a04d" = "Piesok/prach";
+"a04n" = "Piesok/prach";
+"a05d" = "Hmla";
+"a05n" = "Hmla";
+"a06d" = "Hmla";
+"a06n" = "Hmla";
+"s01d" = "Slabé sneženie";
+"s01n" = "Slabé sneženie";
+"s02d" = "Sneh";
+"s02n" = "Sneh";
+"s03d" = "Ťažký sneh";
+"s03n" = "Ťažký sneh";
+"s04d" = "Sneh s dažďom";
+"s04n" = "Sneh s dažďom";
+"s05d" = "Fujavica";
+"s05n" = "Fujavica";
+"s06d" = "Sneženie";
+"s06n" = "Sneženie";
+"r01d" = "Slabý dážď";
+"r01n" = "Slabý dážď";
+"r02d" = "Dážď";
+"r02n" = "Dážď";
+"r03d" = "Silný dážď";
+"r03n" = "Silný dážď";
+"r04d" = "Slabý dážď";
+"r04n" = "Slabý dážď";
+"r05d" = "Dážď";
+"r05n" = "Dážď";
+"r06d" = "Silný dážď";
+"r06n" = "Silný dážď";
+"f01d" = "Dážď";
+"f01n" = "Dážď";
+"d01d" = "Mrholenie";
+"d01n" = "Mrholenie";
+"d02d" = "Mrholenie";
+"d02n" = "Mrholenie";
+"d03d" = "Mrholenie";
+"d03n" = "Mrholenie";
+"t01d" = "Búrka s dažďom";
+"t01n" = "Búrka s dažďom";
+"t02d" = "Búrka s dažďom";
+"t02n" = "Búrka s dažďom";
+"t03d" = "Búrka s prehánkami";
+"t03n" = "Búrka s prehánkami";
+"t04d" = "Búrka s mrholením";
+"t04n" = "Búrka s mrholením";
+"t05d" = "Búrka s krúpami";
+"t05n" = "Búrka s krúpami";
+
+"feels_like" = "Pripadá mi to ako";
+"sunrise" = "Svitanie";
+"sunset" = "Západ slnka";
+
+"now" = "Teraz";
+"morning" = "Ráno";
+"day" = "Deň";
+"evening" = "Večer";
+"night" = "Noc";
+
+"units" = "Jednotky";
+"temp" = "Teplota";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Vietor";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Tlak";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "Viditeľnosť";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "nízka";
+"moderate" = "mierny";
+"high" = "vysoká";
+"humidity" = "Vlhkosť";
+"precipitation" = "Zrážky";
+"mm" = "mm";
+
+"weather_feeling" = "Pocit počasia";
+"hotter" = "Horšie";
+"colder" = "Chladnejšie";
+"weather_feeling_description" = "Či už máte tendenciu pociťovať vyššiu alebo nižšiu teplotu, ako v skutočnosti je, uveďte to. Váš výber zvážime pri ukazovaní postavy.";
+
+"person" = "Osoba";
+"show_person" = "Zobraziť osobu";
+"sex" = "Pohlavie";
+"male" = "muž";
+"female" = "žena";
+"appearance" = "Vzhľad";
+"skin_color" = "Farba pleti";
+"haircut" = "Strihanie vlasov";
+"haircut_color" = "Farba účesu";
+"beard" = "Brada";
+"beard_color" = "Farba brady";
+"wardrobe" = "Šatník";
+"outerwear" = "Vrchné odevy";
+"top" = "Hore";
+"bottom" = "Spodná časť";
+"shoes" = "Topánky";
+"accessories" = "Príslušenstvo";
+
+"notifications" = "Upozornenia";
+"time" = "Čas";
+
+"support" = "Podpora";
+"rate_app" = "Ohodnoťte aplikáciu";
+"write_to_dev" = "Napíšte vývojárom";
+
+"my_geo" = "Moja geopozícia";
+"search_placeholder" = "Vyhľadajte mesto";
+
+"internet_error_title" = "Chyba spojenia";
+"internet_error_text" = "Ojoj! Vyzerá to ako bez internetu. Prosím, skontrolujte svoje pripojenie.";
+"geo_error_title" = "Geolokácia nie je k dispozícii";
+"geo_error_text" = "Ľutujeme, vašu polohu sa nepodarilo zistiť. Prosím, povoľte prístup k vašej polohe v systémových nastaveniach.";
+"unknown_error_title" = "Niečo sa pokazilo...";
+"unknown_error_text" = "Prepáčte, niečo sa pokazilo. Prosím, kontaktujte nás a my to opravíme.";
+"notifications_error_title" = "Chyba povolenia";
+"notifications_error_text" = "Skontrolujte si prosím, aké máte povolenie na upozornenia v nastaveniach.";
+"go_to_settings" = "Prejsť do nastavení";
+"try_again" = "Skúste to znova";
+
+"rate_title" = "Páči sa vám TheWear?";
+"rate_description" = "Či už sa vám aplikácia páči alebo máte čo povedať, radi si to vypočujeme.";
+"go_to_appstore" = "Prejsť do AppStore";
+
+"extremely_cold" = "Vonku extrémne chladno! Oblečte si teplé zimné oblečenie.";
+"frosty" = "Vonku mrzne! Oblečte si teplú bundu, šál, čiapku a rukavice.";
+"freezing" = "Mrzne! Oblečte si kabát alebo bundu, čiapku, šál a rukavice.";
+"chilly" = "Oblečte si ľahkú bundu alebo kabát, vonku je chladno.";
+"less_chilly" = "Cíti sa chladno, oblečte si kabát alebo ľahkú bundu s kapucňou.";
+"cool" = "Cíti sa chladno, oblečte si ľahkú bundu s kapucňou.";
+"feels_warm" = "Cíti sa teplo, oblečte si ľahkú bundu s kapucňou.";
+"warm_man" = "Vonku je teplo, oblečte si mikinu alebo mikinu s džínsami.";
+"warm_woman" = "Vonku je teplo, oblečte si mikinu alebo mikinu s dlhou sukňou.";
+"feels_warmer_man" = "Cíti sa teplo, oblečte si mikinu s džínsami alebo šortkami.";
+"feels_warmer_woman" = "Cítite teplo, oblečte si blúzku so sukňou.";
+"really_warm_man" = "Vonku je naozaj teplo, oblečte si mikinu s dlhým rukávom a džínsy alebo šortky.";
+"really_warm_woman" = "Vonku je naozaj teplo, oblečte si šaty alebo tuniku so sukňou.";
+"hot_man" = "Vonku je horúco, oblečte si tričko s džínsami alebo možno šortkami.";
+"hot_woman" = "Vonku je horúco, oblečte si šaty alebo blúzku s ľahkou sukňou.";
+"feels_hot_man" = "Cíti sa horúco! Oblečte si najľahšie oblečenie.";
+"feels_hot_woman" = "Cíti sa horúco! Oblečte si najľahšie oblečenie.";
+
+"extremely_cold_short" = "Extrémne chladno! Oblečte si teplé oblečenie.";
+"frosty_short" = "Pocit mrazu! Oblečte si teplé oblečenie.";
+"freezing_short" = "Mrzne! Oblečte si teplé oblečenie.";
+"chilly_short" = "Oblečte si ľahkú bundu alebo kabát.";
+"less_chilly_short" = "Oblečte si kabát s kapucňou.";
+"cool_short" = "Oblečte si ľahkú bundu s kapucňou.";
+"feels_warm_short" = "Oblečte si ľahkú bundu s kapucňou.";
+"warm_man_short" = "Oblečte si mikinu s kapucňou a džínsy.";
+"warm_woman_short" = "Oblečte si mikinu s kapucňou a dlhú sukňu.";
+"feels_warmer_man_short" = "Oblečte si mikinu s džínsami.";
+"feels_warmer_woman_short" = "Oblečte si blúzku so sukňou.";
+"really_warm_man_short" = "Oblečte si blúzku s dlhým rukávom a šortky.";
+"really_warm_woman_short" = "Oblečte si tuniku so sukňou.";
+"hot_man_short" = "Oblečte si tričko so šortkami.";
+"hot_woman_short" = "Oblečte si blúzku s ľahkou sukňou.";
+"feels_hot_man_short" = "Cíti sa horúco! Oblečte si čo najľahšie oblečenie.";
+"feels_hot_woman_short" = "Cíti sa horúco! Oblečte si najľahšie oblečenie.";
+
+"gale_force_wind" = "Myslite na vietor so silou víchrice.";
+"strong_wind" = "Pozor na silný vietor.";
+
+"rain_morning" = "Ráno sa očakáva dážď.";
+"rain_afternoon" = "Popoludní sa očakáva dážď.";
+"rain_evening" = "Večer sa očakáva dážď.";
+"rain_night" = "V noci sa očakáva dážď.";
+"rain_day" = "Počas dňa očakávané dažde.";
+"rain_morning_afternoon" = "Dážď sa očakáva ráno a popoludní.";
+"rain_morning_evening" = "Dážď sa očakáva ráno a večer.";
+"rain_afternoon_evening" = "Dážď sa očakáva popoludní a večer.";
+"umbrella" = "Nezabudnite na dáždnik!";
+
+"snow_morning" = "Ráno sa očakáva sneženie.";
+"snow_afternoon" = "Popoludní sa očakáva sneženie.";
+"snow_evening" = "Večer sa očakáva sneženie.";
+"snow_night" = "V noci sa očakáva sneženie.";
+"snow_day" = "Počas dňa sa očakáva sneženie.";
+"snow_morning_afternoon" = "Ráno a popoludní sa očakáva sneženie.";
+"snow_morning_evening" = "Ráno a večer sa očakáva sneženie.";
+"snow_afternoon_evening" = "Sneženie sa očakáva popoludní a večer.";
+"rain_for_hour" = "V blízkej budúcnosti sa očakáva dážď.";
+"snow_for_hour" = "V blízkej budúcnosti sa očakáva sneženie.";
+"snow_rain" = "Očakáva sa sneh a dážď.";
+
+"check_forecast" = "Skontrolujte predpoveď v aplikácii.";
+"weather_forecast" = "Predpoveď počasia";
+"forecast_today" = "Pocity ako teplota pre dnešok";
+"forecast_next_hour" = "Pocitová teplota na nasledujúcu hodinu je";
+"min" = "min";
+"max" = "max";
+"min_temp_is" = "Minimálna teplota je";
+"max_temp_is" = "maximálna teplota je";
+
+"explanation_title" = "Váš šatník";
+"explanation_text" = "Môžete si vybrať akékoľvek oblečenie a farby, aby ste vytvorili vzhľad svojej postavy na hlavnej obrazovke.";
+
+"current_weather_widget_title" = "Aktuálne počasie";
+"current_weather_widget_description" = "Zobrazuje aktuálnu teplotu a odporúčané oblečenie pre vašu aktuálnu polohu alebo posledné zobrazené mesto.";
+"current_weather_widget_placeholder" = "Nebolo možné načítať počasie. Otvorte aplikáciu.";

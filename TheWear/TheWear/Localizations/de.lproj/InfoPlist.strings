@@ -1,0 +1,10 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+NSLocationAlwaysUsageDescription = "TheWear nutzt Ihre Geopositionierung für die genauesten Wettervorhersagen.";
+NSLocationUsageDescription = "TheWear nutzt Ihre Geopositionierung für die genauesten Wettervorhersagen.";
+NSLocationWhenInUseUsageDescription = "TheWear nutzt Ihre Geopositionierung für die genauesten Wettervorhersagen.";

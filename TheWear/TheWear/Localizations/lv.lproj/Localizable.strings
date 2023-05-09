@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Saulains";
+"c01n" = "Skaidrs";
+"c02d" = "Mākoņains";
+"c02n" = "Mākoņains";
+"c03d" = "Mākoņains";
+"c03n" = "Mākoņains";
+"c04d" = "Apmācies";
+"c04n" = "Apmācies";
+"u00d" = "Nokrišņi";
+"u00n" = "Nokrišņi";
+"a01d" = "Migla";
+"a01n" = "Migla";
+"a02d" = "Dūmu";
+"a02n" = "Smēķēt";
+"a03d" = "Migla";
+"a03n" = "Migla";
+"a04d" = "Smiltis/putekļi";
+"a04n" = "Smiltis/putekļi";
+"a05d" = "Migla";
+"a05n" = "Migla";
+"a06d" = "Migla";
+"a06n" = "Migla";
+"s01d" = "Neliels sniegs";
+"s01n" = "Neliels sniegs";
+"s02d" = "Sniegs";
+"s02n" = "Sniegs";
+"s03d" = "Smags sniegs";
+"s03n" = "Smags sniegs";
+"s04d" = "Sniegs ar lietu";
+"s04n" = "Sniegs ar lietu";
+"s05d" = "Slapjš slapjš";
+"s05n" = "Slapjš slapjš";
+"s06d" = "Snigšana";
+"s06n" = "Snigšana";
+"r01d" = "Neliels lietus";
+"r01n" = "Neliels lietus";
+"r02d" = "Lietus";
+"r02n" = "Lietus";
+"r03d" = "Spēcīgs lietus";
+"r03n" = "Spēcīgs lietus";
+"r04d" = "Neliels lietus";
+"r04n" = "Neliels lietus";
+"r05d" = "Lietus";
+"r05n" = "Lietus";
+"r06d" = "Spēcīgs lietus";
+"r06n" = "Spēcīgs lietus";
+"f01d" = "Lietus";
+"f01n" = "Lietus";
+"d01d" = "Līņš";
+"d01n" = "Līņš";
+"d02d" = "Līņš";
+"d02n" = "Līņš";
+"d03d" = "Līņš";
+"d03n" = "Līņš";
+"t01d" = "Pērkona negaiss ar lietu";
+"t01n" = "Pērkona negaiss ar lietu";
+"t02d" = "Pērkona negaiss ar lietu";
+"t02n" = "Pērkona negaiss ar lietu";
+"t03d" = "Pērkona negaiss ar dušu";
+"t03n" = "Pērkona negaiss ar dušu";
+"t04d" = "Pērkona negaiss ar lietusgāzi";
+"t04n" = "Pērkona negaiss ar lietusgāzi";
+"t05d" = "Pērkona negaiss ar krusu";
+"t05n" = "Pērkona negaiss ar krusu";
+
+"feels_like" = "Jūtas kā";
+"sunrise" = "Saullēkts";
+"sunset" = "Saulriets";
+
+"now" = "Tagad";
+"morning" = "Rīts";
+"day" = "Diena";
+"evening" = "Vakars";
+"night" = "Nakts";
+
+"units" = "Vienības";
+"temp" = "Temperatūra";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Vējš";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Spiediens";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "Redzamība";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "zems";
+"moderate" = "mērens";
+"high" = "augsts";
+"humidity" = "Mitrums";
+"precipitation" = "Nokrišņi";
+"mm" = "mm";
+
+"weather_feeling" = "Laika sajūta";
+"hotter" = "Karstāks";
+"colder" = "Vēsāks";
+"weather_feeling_description" = "Neatkarīgi no tā, vai temperatūra ir augstāka vai aukstāka nekā patiesībā, norādiet to. Mēs ņemsim vērā jūsu izvēli, parādot tēlu.";
+
+"person" = "Persona";
+"show_person" = "Parādiet personu";
+"sex" = "Dzimums";
+"male" = "vīrietis";
+"female" = "sieviete";
+"appearance" = "Izskats";
+"skin_color" = "Ādas krāsa";
+"haircut" = "Matu griezums";
+"haircut_color" = "Matu griezuma krāsa";
+"beard" = "Bārda";
+"beard_color" = "Bārdas krāsa";
+"wardrobe" = "Garderobe";
+"outerwear" = "Virsdrēbes";
+"top" = "Tops";
+"bottom" = "Apakšā";
+"shoes" = "Kurpes";
+"accessories" = "Piederumi";
+
+"notifications" = "Paziņojumi";
+"time" = "Laiks";
+
+"support" = "Atbalsts";
+"rate_app" = "Novērtējiet lietotni";
+"write_to_dev" = "Rakstiet izstrādātājiem";
+
+"my_geo" = "Mana ģeopozīcija";
+"search_placeholder" = "Meklējiet pilsētu";
+
+"internet_error_title" = "Savienojuma kļūda";
+"internet_error_text" = "Hmm! Izskatās, ka nav interneta. Lūdzu, pārbaudiet savienojumu.";
+"geo_error_title" = "Ģeolokācijas noteikšana nav pieejama";
+"geo_error_text" = "Diemžēl nevar uzzināt jūsu atrašanās vietu. Lūdzu, sistēmas iestatījumos atļaujiet piekļuvi savai atrašanās vietai.";
+"unknown_error_title" = "Kaut kas nogāja greizi...";
+"unknown_error_text" = "Piedod, kaut kas nogāja greizi. Lūdzu, sazinieties ar mums un mēs to salabosim.";
+"notifications_error_title" = "Atļaujas kļūda";
+"notifications_error_text" = "Lūdzu, pārbaudiet savu atļauju saņemt paziņojumus iestatījumos.";
+"go_to_settings" = "Iet uz iestatījumiem";
+"try_again" = "Mēģiniet vēlreiz";
+
+"rate_title" = "Vai jums patīk TheWear?";
+"rate_description" = "Neatkarīgi no tā, vai jums patīk lietotne vai jums ir ko teikt, mēs labprāt to dzirdētu.";
+"go_to_appstore" = "Iet uz AppStore";
+
+"extremely_cold" = "Ārā ārkārtīgi auksts! Uzvelc siltas ziemas drēbes.";
+"frosty" = "Ārpusē jūtams sals! Uzvelciet siltu jaku, šalli, cepuri un cimdus.";
+"freezing" = "Ir auksti! Uzvelc mēteli vai jaku, cepuri, šalli un cimdus.";
+"chilly" = "Uzvelc vieglu jaku vai mēteli, ārā ir auksts.";
+"less_chilly" = "Jūtas vēss, uzvelciet mēteli vai vieglu jaku ar kapuci.";
+"cool" = "Jūtas auksti, uzvelciet vieglu jaku ar kapuci.";
+"feels_warm" = "Jūtas silts, uzvelciet vieglu jaku ar kapuci.";
+"warm_man" = "Ārā ir silts, uzvelc kapuci vai sporta kreklu ar džinsiem.";
+"warm_woman" = "Ārā ir silti, uzvelc kapuci vai džemperi ar gariem svārkiem.";
+"feels_warmer_man" = "Jūtas silti, uzvelciet džemperi ar džinsiem vai šortiem.";
+"feels_warmer_woman" = "Jūtas silti, uzvelk blūzi ar svārkiem.";
+"really_warm_man" = "Ārā ir ļoti silts, uzvelciet džemperi ar garām piedurknēm un džinsus vai šortus.";
+"really_warm_woman" = "Ārā ir ļoti silts, uzvelciet kleitu vai tuniku ar svārkiem.";
+"hot_man" = "Ārā ir karsts, uzvelc T-kreklu ar džinsiem vai varbūt šortiem.";
+"hot_woman" = "Ārā ir karsti, uzvelciet kleitu vai blūzi ar viegliem svārkiem.";
+"feels_hot_man" = "Jūtos karsti! Uzvelc vieglākās drēbes.";
+"feels_hot_woman" = "Jūtos karsti! Uzvelc vieglākās drēbes.";
+
+"extremely_cold_short" = "Ļoti auksts! Uzvelciet siltas drēbes.";
+"frosty_short" = "Sajūta ir auksta! Uzvelciet siltas drēbes.";
+"freezing_short" = "Tas ir auksts! Uzvelciet siltas drēbes.";
+"chilly_short" = "Uzvelc vieglu jaku vai mēteli.";
+"less_chilly_short" = "Uzvelc mēteli ar kapuci.";
+"cool_short" = "Uzvelciet vieglu jaku ar kapuci.";
+"feels_warm_short" = "Uzvelc vieglu jaku ar kapuci.";
+"warm_man_short" = "Uzvelc jaka ar kapuci un džinsi.";
+"warm_woman_short" = "Uzvelc kapuci ar gariem svārkiem.";
+"feels_warmer_man_short" = "Uzvelc džemperi ar džinsiem.";
+"feels_warmer_woman_short" = "Uzvelc blūzi ar svārkiem.";
+"really_warm_man_short" = "Uzvelc blūzi ar garām piedurknēm un šortiem.";
+"really_warm_woman_short" = "Uzvelc tuniku ar svārkiem.";
+"hot_man_short" = "Uzvelc T-kreklu ar šortiem.";
+"hot_woman_short" = "Uzvelc blūzi ar viegliem svārkiem.";
+"feels_hot_man_short" = "Sajūta ir karsta! Uzvelc visvieglākās drēbes.";
+"feels_hot_woman_short" = "Jūtas karsti! Uzvelc vieglākās drēbes.";
+
+"gale_force_wind" = "Prāta vētrains vējš.";
+"strong_wind" = "Prātā stiprs vējš.";
+
+"rain_morning" = "No rīta gaidāms lietus.";
+"rain_afternoon" = "Pēcpusdienā gaidāms lietus.";
+"rain_evening" = "Vakarā gaidāms lietus.";
+"rain_night" = "Naktī gaidāms lietus.";
+"rain_day" = "Dienā gaidāms lietus.";
+"rain_morning_afternoon" = "Lietus gaidāms no rīta un pēcpusdienā.";
+"rain_morning_evening" = "Lietus gaidāms no rīta un vakarā.";
+"rain_afternoon_evening" = "Pēcpusdienā un vakarā gaidāms lietus.";
+"umbrella" = "Neaizmirstiet lietussargu!";
+
+"snow_morning" = "No rīta gaidāms sniegs.";
+"snow_afternoon" = "Pēcpusdienā gaidāms sniegs.";
+"snow_evening" = "Vakarā gaidāms sniegs.";
+"snow_night" = "Naktī gaidāms sniegs.";
+"snow_day" = "Dienā gaidāms sniegs.";
+"snow_morning_afternoon" = "No rīta un pēcpusdienā gaidāms sniegs.";
+"snow_morning_evening" = "No rīta un vakarā gaidāms sniegs.";
+"snow_afternoon_evening" = "Pēcpusdienā un vakarā gaidāms sniegs.";
+"rain_for_hour" = "Tuvākajā laikā gaidāms lietus.";
+"snow_for_hour" = "Tuvākajā laikā gaidāms sniegs.";
+"snow_rain" = "Gaidāms sniegs un lietus.";
+
+"check_forecast" = "Pārbaudiet prognozi lietotnē.";
+"weather_forecast" = "Laika prognoze";
+"forecast_today" = "Jūtas kā temperatūra šodien";
+"forecast_next_hour" = "Sajūtu temperatūra nākamajai stundai ir";
+"min" = "min";
+"max" = "maks";
+"min_temp_is" = "Minimālā temperatūra ir";
+"max_temp_is" = "maksimālā temperatūra ir";
+
+"explanation_title" = "Jūsu drēbju skapis";
+"explanation_text" = "Varat izvēlēties jebkuru apģērbu un krāsas, lai galvenajā ekrānā izveidotu sava tēla izskatu.";
+
+"current_weather_widget_title" = "Pašreizējie laikapstākļi";
+"current_weather_widget_description" = "Rāda faktisko temperatūru un apģērba ieteikumus jūsu pašreizējai atrašanās vietai vai pēdējai rādītajai pilsētai.";
+"current_weather_widget_placeholder" = "Nevarēja ielādēt laikapstākļus. Atveriet programmu.";

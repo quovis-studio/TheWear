@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Sunčano";
+"c01n" = "Vedro";
+"c02d" = "Oblačno";
+"c02n" = "Oblačno";
+"c03d" = "Oblačno";
+"c03n" = "Oblačno";
+"c04d" = "Oblačno";
+"c04n" = "Oblačno";
+"u00d" = "Padavine";
+"u00n" = "Padavine";
+"a01d" = "Izmaglica";
+"a01n" = "Izmaglica";
+"a02d" = "Sumaglica";
+"a02n" = "Sumaglica";
+"a03d" = "Izmaglica";
+"a03n" = "Izmaglica";
+"a04d" = "Prašina";
+"a04n" = "Prašina";
+"a05d" = "Magla";
+"a05n" = "Magla";
+"a06d" = "Magla";
+"a06n" = "Magla";
+"s01d" = "Lagani sneg";
+"s01n" = "Lagani sneg";
+"s02d" = "Sneg";
+"s02n" = "Sneg";
+"s03d" = "Mećava";
+"s03n" = "Mećava";
+"s04d" = "Sneg sa kišom";
+"s04n" = "Sneg sa kišom";
+"s05d" = "Susnježica";
+"s05n" = "Susnježica";
+"s06d" = "Snežne padavine";
+"s06n" = "Snežne padavine";
+"r01d" = "Malo kiše";
+"r01n" = "Malo kiše";
+"r02d" = "Kiša";
+"r02n" = "Kiša";
+"r03d" = "Moguća kiša";
+"r03n" = "Moguća kiša";
+"r04d" = "Malo kiše";
+"r04n" = "Malo kiše";
+"r05d" = "Kiša";
+"r05n" = "Kiša";
+"r06d" = "Moguća kiša";
+"r06n" = "Moguća kiša";
+"f01d" = "Kiša";
+"f01n" = "Kiša";
+"d01d" = "Sitna kiša";
+"d01n" = "Sitna kiša";
+"d02d" = "Sitna kiša";
+"d02n" = "Sitna kiša";
+"d03d" = "Sitna kiša";
+"d03n" = "Sitna kiša";
+"t01d" = "Oluja s grmljavinom";
+"t01n" = "Oluja s grmljavinom";
+"t02d" = "Oluja s grmljavinom";
+"t02n" = "Oluja s grmljavinom";
+"t03d" = "Grmljavina sa pljuskovima";
+"t03n" = "Grmljavina sa pljuskovima";
+"t04d" = "Grmljavina sa kišicom";
+"t04n" = "Grmljavina sa kišicom";
+"t05d" = "Grmljavina sa gradom";
+"t05n" = "Grmljavina sa gradom";
+
+"feels_like" = "Stvarni osećaj";
+"sunrise" = "Izlazak";
+"sunset" = "Zalazak";
+
+"now" = "Sada";
+"morning" = "Jutro";
+"day" = "Dan";
+"evening" = "Veče";
+"night" = "Noć";
+
+"units" = "Jedinice";
+"temp" = "Temperatura";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Vetar";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Pritisak";
+"hpa" = "hpa";
+"mmhg" = "mmHg";
+"visibility" = "Vidljivost";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV indeks";
+"low" = "nisko";
+"moderate" = "umereno";
+"high" = "visoko";
+"humidity" = "Vlaga";
+"precipitation" = "Kiša";
+"mm" = "mm";
+
+"weather_feeling" = "Osećaj vremena";
+"hotter" = "Toplije";
+"colder" = "Hladnije";
+"weather_feeling_description" = "Prevucite ulevo ako obično osećate temperaturu hladniju nego što jeste ili udesno ako je topliju, a mi ćemo je koristiti kada prikazujemo vaš lik.";
+
+"person" = "Lik";
+"show_person" = "Pokazati lik";
+"sex" = "Pol";
+"male" = "muški";
+"female" = "ženski";
+"appearance" = "Izgled";
+"skin_color" = "Boja kože";
+"haircut" = "Šišanje";
+"haircut_color" = "Boja kose";
+"beard" = "Brada";
+"beard_color" = "Boja brade";
+"wardrobe" = "Garderoba";
+"outerwear" = "Gornja odeća";
+"top" = "Vrhunska odeća";
+"bottom" = "Pantalone, suknje i šorc";
+"shoes" = "Cipele";
+"accessories" = "Pribor";
+
+"notifications" = "Obaveštenja";
+"time" = "Vremena";
+
+"support" = "Podrška";
+"rate_app" = "Ocenite aplikaciju";
+"write_to_dev" = "Kontaktirajte podršku";
+
+"my_geo" = "Moja lokacija";
+"search_placeholder" = "Pretraga grada";
+
+"internet_error_title" = "Greška u vezi";
+"internet_error_text" = "Ups! Nema internetske veze. Molimo, proverite svoju vezu.";
+"geo_error_title" = "Vaša geopozicija je nedostupna";
+"geo_error_text" = "Žao nam je, ali ne možem da dobijem vašu lokaciju. Dozvolite pristup vašoj lokaciji u sistemski podešavanjima.";
+"unknown_error_title" = "Nešto je krenulo naopako";
+"unknown_error_text" = "Izvinite, nešto nije u redu. Molimo, kontaktirajte nas i mi ćemo to popraviti.";
+"notifications_error_title" = "Greška u obaveštanjima";
+"notifications_error_text" = "Molimo, proverite svoju dozvolu za obaveštenja u podešavanjima.";
+"go_to_settings" = "Otvoriti podešavanja";
+"try_again" = "Pokušajte ponovo";
+
+"rate_title" = "Kako vam se sviđa TheWear?";
+"rate_description" = "Recite nam šta vam se sviđa u vezi sa aplikacijom i šta mislite da treba da se poboljša.";
+"go_to_appstore" = "Otvoriti AppStore";
+
+"extremely_cold" = "Veoma hladno napolju! Obući toplu zimsku odeću.";
+"frosty" = "Napolju je mraz! Stavite toplu jaknu, šal, kapu i rukavice.";
+"freezing" = "Smrzava se! Stavite kaput ili jaknu, kapu, šal i rukavice.";
+"chilly" = "Obucite laganu jaknu ili kaput, napolju je hladno.";
+"less_chilly" = "Osećate se hladno, obucite kaput ili laganu jaknu sa kapuljačom.";
+"cool" = "Oseća se hladno, obucite laganu jaknu sa kapuljačom.";
+"feels_warm" = "Oseća se toplo, stavite laganu jaknu sa kapuljačom.";
+"warm_man" = "Napolju je toplo, obucite duksericu ili duks sa farmerkama.";
+"warm_woman" = "Napolju je toplo, obucite duksericu ili duks sa dugom suknjom.";
+"feels_warmer_man" = "Oseća se toplo, stavite duks sa farmerkama ili šortsom.";
+"feels_warmer_woman" = "Oseća se toplo, stavite bluzu sa suknjom.";
+"really_warm_man" = "Napolju je stvarno toplo, obucite duge rukave uz farmerke ili šortsove.";
+"really_warm_woman" = "Napolju je stvarno toplo, obucite haljinu ili tuniku sa suknjom.";
+"hot_man" = "Napolju je vruće, obucite majicu sa šortom.";
+"hot_woman" = "Napolju je vruće, obucite haljinu ili bluzu sa laganom suknjom.";
+"feels_hot_man" = "Oseća se vruće! Obucite najlakšu odeću.";
+"feels_hot_woman" = "Oseća se vruće! Obucite najlakšu odeću.";
+
+"extremely_cold_short" = "Veoma hladno. Obucite se toplo!";
+"frosty_short" = "Hlado! Obucite se toplo!";
+"freezing_short" = "Hlado! Obucite se toplo!";
+"chilly_short" = "Obucite jaknu ili kaput.";
+"less_chilly_short" = "Obucite jaknu ili kaput sa kapuljačom.";
+"cool_short" = "Obucite laganu jaknu sa kapuljačom.";
+"feels_warm_short" = "Obucite laganu jaknu sa kapuljačom.";
+"warm_man_short" = "Obucite duksericu sa farmerkama.";
+"warm_woman_short" = "Obucite duksericu sa dugom suknjom.";
+"feels_warmer_man_short" = "Obucite duks sa farmerkama.";
+"feels_warmer_woman_short" = "Obucite bluzu sa suknjom.";
+"really_warm_man_short" = "Obucite duge rukave uz šortsove.";
+"really_warm_woman_short" = "Obucite tuniku sa suknjom.";
+"hot_man_short" = "Obucite majicu sa šortom.";
+"hot_woman_short" = "Obucite bluzu sa laganom suknjom.";
+"feels_hot_man_short" = "Vruće! Obucite najlakšu odeću.";
+"feels_hot_woman_short" = "Vruće! Obucite najlakšu odeću.";
+
+"gale_force_wind" = "Budite oprezni, olujni vetar.";
+"strong_wind" = "Budite oprezni, jak vetar.";
+
+"rain_morning" = "Ujutro moguča je kiša.";
+"rain_afternoon" = "Kiša je moguća popodne.";
+"rain_evening" = "Kiša je moguća uveče.";
+"rain_night" = "Noću je moguća kiša.";
+"rain_day" = "Tokom dana moguća je kiša.";
+"rain_morning_afternoon" = "Kiša je moguća ujutro i popodne.";
+"rain_morning_evening" = "Kiša je moguća ujutro i uveče.";
+"rain_afternoon_evening" = "Popodne i uveče moguća je kiša.";
+"umbrella" = "Ne zaboravite kišobran!";
+
+"snow_morning" = "Ujutro moguč je sneg.";
+"snow_afternoon" = "Sneg je moguć popodne.";
+"snow_evening" = "Sneg je moguć uveče.";
+"snow_night" = "Noću je moguć sneg.";
+"snow_day" = "Tokom dana moguć je sneg.";
+"snow_morning_afternoon" = "Sneg je moguć ujutro i popodne.";
+"snow_morning_evening" = "Sneg je moguć ujutro i uveče.";
+"snow_afternoon_evening" = "Popodne i uveče moguć je sneg.";
+"rain_for_hour" = "Uskoro se očekuje kiša.";
+"snow_for_hour" = "Uskoro se očekuje sneg.";
+"snow_rain" = "Sneg I kiša su mogući.";
+
+"check_forecast" = "Proverite prognozu u aplikaciji.";
+"weather_forecast" = "Vremenska prognoza";
+"forecast_today" = "Oseća se kao temperatura za danas je";
+"forecast_next_hour" = "Oseća se da je temperatura za sledeći sat";
+"min" = "min";
+"max" = "max";
+"min_temp_is" = "Minimalna temperatura";
+"max_temp_is" = "maksimalna temperatura";
+
+"explanation_title" = "Vaša garderoba";
+"explanation_text" = "Možete da birate bilo koju odeću i boje da stvarate izgled vašeg lika.";
+
+"current_weather_widget_title" = "Trenutno vreme";
+"current_weather_widget_description" = "Prikazuje stvarnu temperaturu i preporuku odeće za vašu lokaciju ili poslednji prikazani grad.";
+"current_weather_widget_placeholder" = "Greška pri učitavanju vremena. Idite na aplikaciju.";

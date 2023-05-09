@@ -1,0 +1,10 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+NSLocationAlwaysUsageDescription = "最も正確な予測を提供するには、TheWear が現在地を知る必要があります。";
+NSLocationUsageDescription = "最も正確な予測を提供するには、TheWear が現在地を知る必要があります。";
+NSLocationWhenInUseUsageDescription = "最も正確な予測を提供するには、TheWear が現在地を知る必要があります。";

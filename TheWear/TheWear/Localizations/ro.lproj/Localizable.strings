@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Însorit";
+"c01n" = "Clar";
+"c02d" = "Noros";
+"c02n" = "Noros";
+"c03d" = "Noros";
+"c03n" = "Noros";
+"c04d" = "Acoperit de nori";
+"c04n" = "Acoperit de nori";
+"u00d" = "Precipitare";
+"u00n" = "Precipitare";
+"a01d" = "Aburi";
+"a01n" = "Aburi";
+"a02d" = "Fum";
+"a02n" = "Fum";
+"a03d" = "Ceață";
+"a03n" = "Ceață";
+"a04d" = "Nisip/praf";
+"a04n" = "Nisip/praf";
+"a05d" = "Ceaţă";
+"a05n" = "Ceaţă";
+"a06d" = "Ceaţă";
+"a06n" = "Ceaţă";
+"s01d" = "Zăpadă ușoară";
+"s01n" = "Zăpadă ușoară";
+"s02d" = "Zăpadă";
+"s02n" = "Zăpadă";
+"s03d" = "Zăpadă grea";
+"s03n" = "Zăpadă grea";
+"s04d" = "Zăpadă cu ploaie";
+"s04n" = "Zăpadă cu ploaie";
+"s05d" = "Lapoviță";
+"s05n" = "Lapoviță";
+"s06d" = "Zăpadă";
+"s06n" = "Zăpadă";
+"r01d" = "Ploaie ușoară";
+"r01n" = "Ploaie ușoară";
+"r02d" = "Ploaie";
+"r02n" = "Ploaie";
+"r03d" = "Ploaie torentiala";
+"r03n" = "Ploaie torentiala";
+"r04d" = "Ploaie ușoară";
+"r04n" = "Ploaie ușoară";
+"r05d" = "Ploaie";
+"r05n" = "Ploaie";
+"r06d" = "Ploaie torentiala";
+"r06n" = "Ploaie torentiala";
+"f01d" = "Ploaie";
+"f01n" = "Ploaie";
+"d01d" = "Burniță";
+"d01n" = "Burniță";
+"d02d" = "Burniță";
+"d02n" = "Burniță";
+"d03d" = "Burniță";
+"d03n" = "Burniță";
+"t01d" = "Furtună cu ploaie";
+"t01n" = "Furtună cu ploaie";
+"t02d" = "Furtună cu ploaie";
+"t02n" = "Furtună cu ploaie";
+"t03d" = "Furtună cu ploaie";
+"t03n" = "Furtună cu ploaie";
+"t04d" = "Furtună cu burniță";
+"t04n" = "Furtună cu burniță";
+"t05d" = "Furtună cu grindină";
+"t05n" = "Furtună cu grindină";
+
+"feels_like" = "Se simte ca";
+"sunrise" = "Răsărit";
+"sunset" = "Apus de soare";
+
+"now" = "Acum";
+"morning" = "Dimineaţă";
+"day" = "Zi";
+"evening" = "Seară";
+"night" = "Noapte";
+
+"units" = "Unități";
+"temp" = "Temperatura";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Vânt";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Presiune";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "Vizibilitate";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "scăzut";
+"moderate" = "moderat";
+"high" = "înalt";
+"humidity" = "Umiditate";
+"precipitation" = "Precipitare";
+"mm" = "mm";
+
+"weather_feeling" = "Senzație de vreme";
+"hotter" = "Mai fierbinte";
+"colder" = "Mai rece";
+"weather_feeling_description" = "Indiferent dacă aveți tendința de a simți temperatura mai caldă sau mai rece decât este în realitate, specificați-o. Vom lua în considerare alegerea ta atunci când arătăm personajul.";
+
+"person" = "Persoană";
+"show_person" = "Arată persoana";
+"sex" = "Sex";
+"male" = "masculin";
+"female" = "femeie";
+"appearance" = "Aspect";
+"skin_color" = "Culoarea pielii";
+"haircut" = "Tunsoare";
+"haircut_color" = "Culoarea tunsorii";
+"beard" = "Barbă";
+"beard_color" = "Culoarea bărbii";
+"wardrobe" = "Dulap pentru haine";
+"outerwear" = "Îmbrăcăminte exterioară";
+"top" = "Top";
+"bottom" = "Partea de jos";
+"shoes" = "Pantofi";
+"accessories" = "Accesorii";
+
+"notifications" = "Notificări";
+"time" = "Timp";
+
+"support" = "A sustine";
+"rate_app" = "Evaluează aplicația";
+"write_to_dev" = "Scrieți dezvoltatorilor";
+
+"my_geo" = "Geopozitia mea";
+"search_placeholder" = "Caută un oraș";
+
+"internet_error_title" = "Eroare de conexiune";
+"internet_error_text" = "Hopa! Se pare că nu există internet. Vă rugăm să vă verificați conexiunea.";
+"geo_error_title" = "Geolocalizarea este indisponibilă";
+"geo_error_text" = "Ne pare rău, nu pot obține locația dvs. Vă rugăm să permiteți accesul la locația dvs. în setările sistemului.";
+"unknown_error_title" = "Ceva n-a mers bine...";
+"unknown_error_text" = "Scuze, ceva a mers greșit. Vă rugăm să ne contactați și o vom repara.";
+"notifications_error_title" = "Eroare de permisiune";
+"notifications_error_text" = "Vă rugăm să verificați permisiunea dvs. pentru notificări în setări.";
+"go_to_settings" = "Mergeți la setări";
+"try_again" = "Încearcă din nou";
+
+"rate_title" = "Vă bucurați de TheWear?";
+"rate_description" = "Indiferent dacă vă place aplicația sau aveți ceva de spus, ne-ar plăcea să o auzim.";
+"go_to_appstore" = "Mergeți la AppStore";
+
+"extremely_cold" = "Extrem de frig afară! Pune-ți haine calde de iarnă.";
+"frosty" = "Se simte gerul afară! Puneți-vă o jachetă călduroasă, o eșarfă, o pălărie și mănuși.";
+"freezing" = "Este foarte frig! Îmbracă o haină sau un sacou, o pălărie, o eșarfă și mănuși.";
+"chilly" = "Puneți o jachetă ușoară sau o haină, se simte frig afară.";
+"less_chilly" = "Se simte frig, puneți o haină sau o jachetă ușoară cu glugă.";
+"cool" = "Se simte frig, puneți-vă o jachetă ușoară cu glugă.";
+"feels_warm" = "Se simte cald, îmbracă o jachetă ușoară cu glugă.";
+"warm_man" = "Este cald afara, pune-ti un hanorac sau un hanorac cu blugi.";
+"warm_woman" = "Este cald afara, pune-ti un hanorac sau un hanorac cu fusta lunga.";
+"feels_warmer_man" = "Se simte cald, îmbracă un hanorac cu blugi sau pantaloni scurți.";
+"feels_warmer_woman" = "Se simte cald, imbraca-te o bluza cu fusta.";
+"really_warm_man" = "Este foarte cald afară, îmbracă un hanorac cu mânecă lungă și blugi sau pantaloni scurți.";
+"really_warm_woman" = "Este foarte cald afară, îmbracă o rochie sau o tunică cu o fustă.";
+"hot_man" = "E cald afară, pune-ți un tricou cu blugi sau poate pantaloni scurți.";
+"hot_woman" = "Este cald afară, îmbracă o rochie sau o bluză cu o fustă lejeră.";
+"feels_hot_man" = "Se simte fierbinte! Pune-ți cele mai lejere haine.";
+"feels_hot_woman" = "Se simte fierbinte! Pune-ți cele mai lejere haine.";
+
+"extremely_cold_short" = "Extrem de frig! Puneți-vă haine călduroase.";
+"frosty_short" = "Se simte gerul! Puneți haine călduroase.";
+"freezing_short" = "E foarte frig! Puneți haine călduroase.";
+"chilly_short" = "Puneți-vă o jachetă ușoară sau o haină.";
+"less_chilly_short" = "Pune-ți o haină cu glugă.";
+"cool_short" = "Pune-ți o jachetă ușoară cu glugă.";
+"feels_warm_short" = "Pune-ți o jachetă ușoară cu glugă.";
+"warm_man_short" = "Îmbracă un hanorac cu glugă și blugi.";
+"warm_woman_short" = "Îmbracă un hanorac cu glugă și o fustă lungă.";
+"feels_warmer_man_short" = "Puneți un hanorac cu blugi.";
+"feels_warmer_woman_short" = "Îmbracă o bluză cu o fustă.";
+"really_warm_man_short" = "Îmbracă o bluză cu mânecă lungă cu pantaloni scurți.";
+"really_warm_woman_short" = "Îmbracă o tunică cu o fustă.";
+"hot_man_short" = "Îmbracă un tricou cu pantaloni scurți.";
+"hot_woman_short" = "Îmbracă o bluză cu o fustă lejeră.";
+"feels_hot_man_short" = "Se simte cald! Puneți cele mai ușoare haine.";
+"feels_hot_woman_short" = "Se simte cald! Îmbracă hainele cele mai ușoare.";
+
+"gale_force_wind" = "Mintea vântului puternic.";
+"strong_wind" = "Mintea vântului puternic.";
+
+"rain_morning" = "Se așteaptă ploaie dimineață.";
+"rain_afternoon" = "Se așteaptă ploaie după-amiază.";
+"rain_evening" = "Se așteaptă ploaie pentru seară.";
+"rain_night" = "Se așteaptă ploaie noaptea.";
+"rain_day" = "Pe parcursul zilei sunt așteptate ploi.";
+"rain_morning_afternoon" = "Se asteapta ploi dimineata si dupa-amiaza.";
+"rain_morning_evening" = "Se asteapta ploi dimineata si seara.";
+"rain_afternoon_evening" = "Se așteaptă ploi după-amiază și seara.";
+"umbrella" = "Nu uitați de umbrelă!";
+
+"snow_morning" = "Se așteaptă ninsoare dimineață.";
+"snow_afternoon" = "Se așteaptă ninsoare pentru după-amiază.";
+"snow_evening" = "Se așteaptă ninsoare pentru seară.";
+"snow_night" = "Se așteaptă ninsoare noaptea.";
+"snow_day" = "Se așteaptă ninsoare în cursul zilei.";
+"snow_morning_afternoon" = "Ninsori se asteapta dimineata si dupa-amiaza.";
+"snow_morning_evening" = "Se așteaptă ninsoare dimineața și seara.";
+"snow_afternoon_evening" = "Ninsori se asteapta dupa-amiaza si seara.";
+"rain_for_hour" = "Se așteaptă ploi în viitorul apropiat.";
+"snow_for_hour" = "Se așteaptă ninsori în viitorul apropiat.";
+"snow_rain" = "Sunt așteptate zăpadă și ploaie.";
+
+"check_forecast" = "Verificați prognoza în aplicație.";
+"weather_forecast" = "Prognoza meteo";
+"forecast_today" = "Se simte ca temperatura pentru astăzi";
+"forecast_next_hour" = "Se simte ca temperatura pentru următoarea oră este";
+"min" = "min";
+"max" = "max";
+"min_temp_is" = "Temperatura minima este";
+"max_temp_is" = "temperatura maximă este";
+
+"explanation_title" = "Garderoba ta";
+"explanation_text" = "Puteți alege orice haine și culori pentru a crea un aspect al personajului dvs. pe ecranul principal.";
+
+"current_weather_widget_title" = "Vremea actuală";
+"current_weather_widget_description" = "Afișează temperatura actuală și recomandarea de îmbrăcăminte pentru locația dvs. curentă sau pentru ultimul oraș afișat.";
+"current_weather_widget_placeholder" = "Nu am putut încărca vremea. Deschideți aplicația.";

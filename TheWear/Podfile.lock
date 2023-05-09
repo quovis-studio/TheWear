@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (5.6.4)
+  - YandexMobileMetrica (4.2.0):
+    - YandexMobileMetrica/Static (= 4.2.0)
+  - YandexMobileMetrica/Static (4.2.0):
+    - YandexMobileMetrica/Static/Core (= 4.2.0)
+    - YandexMobileMetrica/Static/Crashes (= 4.2.0)
+  - YandexMobileMetrica/Static/Core (4.2.0)
+  - YandexMobileMetrica/Static/Crashes (4.2.0):
+    - YandexMobileMetrica/Static/Core
+
+DEPENDENCIES:
+  - Alamofire
+  - YandexMobileMetrica (= 4.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - YandexMobileMetrica
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  YandexMobileMetrica: f5f9c605eaaba33ff6ab2b6bc3259035ca60ed87
+
+PODFILE CHECKSUM: f37a266dfdc42d09d86de46a9008ad3e07fdbba9
+
+COCOAPODS: 1.11.3

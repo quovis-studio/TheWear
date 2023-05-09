@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Aurinkoinen";
+"c01n" = "Kirkas";
+"c02d" = "Pilvinen";
+"c02n" = "Pilvinen";
+"c03d" = "Pilvinen";
+"c03n" = "Pilvinen";
+"c04d" = "Pilvinen";
+"c04n" = "Pilvinen";
+"u00d" = "Sademäärä";
+"u00n" = "Sademäärä";
+"a01d" = "Sumu";
+"a01n" = "Sumu";
+"a02d" = "Savu";
+"a02n" = "Savu";
+"a03d" = "Haze";
+"a03n" = "Haze";
+"a04d" = "Hiekka/pöly";
+"a04n" = "Hiekka/pöly";
+"a05d" = "Sumu";
+"a05n" = "Sumu";
+"a06d" = "Sumu";
+"a06n" = "Sumu";
+"s01d" = "Kevyt lumi";
+"s01n" = "Kevyt lumi";
+"s02d" = "Lumi";
+"s02n" = "Lumi";
+"s03d" = "Raskas lumi";
+"s03n" = "Raskas lumi";
+"s04d" = "Lunta ja sadetta";
+"s04n" = "Lunta ja sadetta";
+"s05d" = "Räsäntä";
+"s05n" = "Räsäntä";
+"s06d" = "Lumisade";
+"s06n" = "Lumisade";
+"r01d" = "Kevyt sade";
+"r01n" = "Kevyt sade";
+"r02d" = "Sade";
+"r02n" = "Sade";
+"r03d" = "Rankkasade";
+"r03n" = "Rankkasade";
+"r04d" = "Kevyt sade";
+"r04n" = "Kevyt sade";
+"r05d" = "Sade";
+"r05n" = "Sade";
+"r06d" = "Rankkasade";
+"r06n" = "Rankkasade";
+"f01d" = "Sade";
+"f01n" = "Sade";
+"d01d" = "Tihkusade";
+"d01n" = "Tihkusade";
+"d02d" = "Tihkusade";
+"d02n" = "Tihkusade";
+"d03d" = "Tihkusade";
+"d03n" = "Tihkusade";
+"t01d" = "Ukkosmyrsky ja sade";
+"t01n" = "Ukkosmyrsky ja sade";
+"t02d" = "Ukkosmyrsky ja sade";
+"t02n" = "Ukkosmyrsky ja sade";
+"t03d" = "Ukkosmyrsky ja suihku";
+"t03n" = "Ukkosmyrsky ja suihku";
+"t04d" = "Ukkosmyrsky ja tihkusade";
+"t04n" = "Ukkosmyrsky ja tihkusade";
+"t05d" = "Ukkosmyrsky ja raekuuroja";
+"t05n" = "Ukkosmyrsky ja raekuuroja";
+
+"feels_like" = "Tuntuu kuin";
+"sunrise" = "Auringonnousu";
+"sunset" = "Auringonlasku";
+
+"now" = "Nyt";
+"morning" = "Huomenta";
+"day" = "Päivä";
+"evening" = "Ilta";
+"night" = "Yö";
+
+"units" = "Yksiköt";
+"temp" = "Lämpötila";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Tuuli";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Paine";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "Näkyvyys";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "alhainen";
+"moderate" = "maltillinen";
+"high" = "korkea";
+"humidity" = "Kosteus";
+"precipitation" = "Sademäärä";
+"mm" = "mm";
+
+"weather_feeling" = "Sään tunne";
+"hotter" = "Kuumempi";
+"colder" = "Kylmempi";
+"weather_feeling_description" = "Jos sinulla on taipumus tuntea lämpötila kuumemmaksi tai kylmemmäksi kuin se todellisuudessa on, määritä se. Otamme valintasi huomioon, kun näytämme hahmon.";
+
+"person" = "Henkilö";
+"show_person" = "Näytä henkilö";
+"sex" = "Sukupuoli";
+"male" = "mies";
+"female" = "nainen";
+"appearance" = "Ulkonäkö";
+"skin_color" = "Ihon väri";
+"haircut" = "Hiustenleikkaus";
+"haircut_color" = "Hiustenleikkaus väri";
+"beard" = "Parta";
+"beard_color" = "Parran väri";
+"wardrobe" = "Vaatekaappi";
+"outerwear" = "Päällysvaatteet";
+"top" = "Ylös";
+"bottom" = "Pohja";
+"shoes" = "Kengät";
+"accessories" = "Lisätarvikkeet";
+
+"notifications" = "Ilmoitukset";
+"time" = "Aika";
+
+"support" = "Tuki";
+"rate_app" = "Arvioi sovellus";
+"write_to_dev" = "Kirjoita kehittäjille";
+
+"my_geo" = "Minun geosijaintini";
+"search_placeholder" = "Etsi kaupunki";
+
+"internet_error_title" = "Yhteysvirhe";
+"internet_error_text" = "Hups! Näyttää siltä, ettei internetiä ole. Tarkista yhteys.";
+"geo_error_title" = "Geopaikannus ei ole käytettävissä";
+"geo_error_text" = "Anteeksi, en saa sijaintisi selville. Salli sijaintisi käyttöoikeus järjestelmäasetuksissa.";
+"unknown_error_title" = "Jokin meni pieleen...";
+"unknown_error_text" = "Anteeksi, jokin meni pieleen. Ota yhteyttä, niin korjaamme asian.";
+"notifications_error_title" = "Lupavirhe";
+"notifications_error_text" = "Tarkista ilmoitusten salliminen asetuksista.";
+"go_to_settings" = "Siirry asetuksiin";
+"try_again" = "Yritä uudelleen";
+
+"rate_title" = "Nautitko TheWearista?";
+"rate_description" = "Pidätkö sovelluksesta tai onko sinulla jotain sanottavaa, haluaisimme kuulla sen.";
+"go_to_appstore" = "Siirry AppStoreen";
+
+"extremely_cold" = "Ulkona on erittäin kylmä! Pue lämpimät talvivaatteet päällesi.";
+"frosty" = "Ulkona on pakkasta! Laita lämmin takki, huivi, pipo ja hanskat.";
+"freezing" = "On kylmä! Pue takki tai takki, pipo, huivi ja käsineet.";
+"chilly" = "Laita kevyt takki tai takki päälle, ulkona tuntuu kolealta.";
+"less_chilly" = "Tuntuu kolealta, pue takki tai kevyt takki ja huppari.";
+"cool" = "Tuntuu kolealta, pue kevyt takki ja huppari.";
+"feels_warm" = "Tuntuu lämpimältä, laita kevyt takki ja huppari päälle.";
+"warm_man" = "Ulkona on lämmin, pue huppari tai collegepaita farkkujen kanssa.";
+"warm_woman" = "Ulkona on lämmin, pue huppari tai collegepaita pitkähameen kanssa.";
+"feels_warmer_man" = "Tuntuu lämpimältä, pue villapaita ja farkut tai shortsit.";
+"feels_warmer_woman" = "Tuntuu lämpimältä, pue pusero hameen kanssa.";
+"really_warm_man" = "Ulkona on todella lämmin, pue pitkähihainen huppari ja farkut tai shortsit.";
+"really_warm_woman" = "Ulkona on todella lämmintä, pue mekko tai tunika ja hame.";
+"hot_man" = "Ulkona on kuuma, pue t-paita ja farkut tai ehkä shortsit.";
+"hot_woman" = "Ulkona on kuuma, pue mekko tai pusero ja kevyt hame.";
+"feels_hot_man" = "Tuntuu kuumalta! Pue päällesi kevyimmät vaatteet.";
+"feels_hot_woman" = "Tuntuu kuumalta! Pue päällesi kevyimmät vaatteet.";
+
+"extremely_cold_short" = "Äärimmäisen kylmä! Pue lämpimät vaatteet päällesi.";
+"frosty_short" = "Tuntuu pakkaselta! Pue lämpimät vaatteet päällesi.";
+"freezing_short" = "On jäätävää! Laita lämpimät vaatteet päälle.";
+"chilly_short" = "Laita kevyt takki tai takki päälle.";
+"less_chilly_short" = "Pue takki ja huppari.";
+"cool_short" = "Pue kevyt takki, jossa on huppari.";
+"feels_warm_short" = "Pue kevyt takki ja huppari.";
+"warm_man_short" = "Laita huppari ja farkut.";
+"warm_woman_short" = "Laita huppari ja pitkä hame.";
+"feels_warmer_man_short" = "Laita collegepaita ja farkut.";
+"feels_warmer_woman_short" = "Pue pusero ja hame.";
+"really_warm_man_short" = "Laita pitkähihainen paita ja shortsit.";
+"really_warm_woman_short" = "Laita tunika ja hame.";
+"hot_man_short" = "Laita t-paita shortsien kanssa.";
+"hot_woman_short" = "Pue pusero ja kevyt hame.";
+"feels_hot_man_short" = "Tuntuu kuumalta! Pue päällesi kevyimmät vaatteet.";
+"feels_hot_woman_short" = "Tuntuu kuumalta! Pue päällesi kevyimmät vaatteet.";
+
+"gale_force_wind" = "Mieli myrskytuuli.";
+"strong_wind" = "Muista kova tuuli.";
+
+"rain_morning" = "Aamulla odotetaan sadetta.";
+"rain_afternoon" = "Iltapäivällä odotetaan sadetta.";
+"rain_evening" = "Illalla odotetaan sadetta.";
+"rain_night" = "Yöllä odotetaan sadetta.";
+"rain_day" = "Päivän aikana odotetaan sateita.";
+"rain_morning_afternoon" = "Aamulla ja iltapäivällä odotetaan sateita.";
+"rain_morning_evening" = "Aamulla ja illalla odotetaan sateita.";
+"rain_afternoon_evening" = "Iltapäivällä ja illalla odotetaan sateita.";
+"umbrella" = "Älä unohda sateenvarjoa!";
+
+"snow_morning" = "Lunta odotetaan aamulla.";
+"snow_afternoon" = "Lunta odotetaan iltapäivällä.";
+"snow_evening" = "Lunta odotetaan illalla.";
+"snow_night" = "Yöllä odotetaan lunta.";
+"snow_day" = "Lunta odotetaan päivän aikana.";
+"snow_morning_afternoon" = "Lunta odotetaan aamulla ja iltapäivällä.";
+"snow_morning_evening" = "Lunta odotetaan aamulla ja illalla.";
+"snow_afternoon_evening" = "Lunta odotetaan iltapäivällä ja illalla.";
+"rain_for_hour" = "Lähitulevaisuudessa on odotettavissa sadetta.";
+"snow_for_hour" = "Lunta on odotettavissa lähitulevaisuudessa.";
+"snow_rain" = "Lunta ja sadetta odotetaan.";
+
+"check_forecast" = "Tarkista sääennuste sovelluksesta.";
+"weather_forecast" = "Sääennuste";
+"forecast_today" = "Tuntuu kuin lämpötila tänään";
+"forecast_next_hour" = "Tuntuu, että seuraavan tunnin lämpötila on";
+"min" = "min";
+"max" = "max";
+"min_temp_is" = "Minimilämpötila on";
+"max_temp_is" = "maksimi lämpötila on";
+
+"explanation_title" = "Sinun vaatekaappisi";
+"explanation_text" = "Voit valita mitä tahansa vaatteita ja värejä luodaksesi hahmosi ulkoasun päänäytöllä.";
+
+"current_weather_widget_title" = "Nykyinen sää";
+"current_weather_widget_description" = "Näyttää nykyisen sijaintisi tai viimeksi näytetyn kaupungin todellisen lämpötilan ja vaatetussuosituksen.";
+"current_weather_widget_placeholder" = "Säätiedotusta ei saatu ladattua. Avaa sovellus.";

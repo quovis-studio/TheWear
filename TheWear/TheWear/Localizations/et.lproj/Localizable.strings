@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Päikeseline";
+"c01n" = "Selge";
+"c02d" = "Pilves ilm";
+"c02n" = "Pilves ilm";
+"c03d" = "Pilves ilm";
+"c03n" = "Pilves ilm";
+"c04d" = "Pilvine";
+"c04n" = "Pilvine";
+"u00d" = "Sademed";
+"u00n" = "Sademed";
+"a01d" = "Udu";
+"a01n" = "Udu";
+"a02d" = "Suitsu";
+"a02n" = "Suitsu";
+"a03d" = "Hägusus";
+"a03n" = "Hägusus";
+"a04d" = "Liiv/tolm";
+"a04n" = "Liiv/tolm";
+"a05d" = "Udu";
+"a05n" = "Udu";
+"a06d" = "Udu";
+"a06n" = "Udu";
+"s01d" = "Kerge lund";
+"s01n" = "Kerge lund";
+"s02d" = "Lumi";
+"s02n" = "Lumi";
+"s03d" = "Tugev lumi";
+"s03n" = "Tugev lumi";
+"s04d" = "Lund koos vihmaga";
+"s04n" = "Lund koos vihmaga";
+"s05d" = "lörtsi";
+"s05n" = "lörtsi";
+"s06d" = "Lumesadu";
+"s06n" = "Lumesadu";
+"r01d" = "Kerge vihm";
+"r01n" = "Kerge vihm";
+"r02d" = "Vihma";
+"r02n" = "Vihma";
+"r03d" = "Paduvihm";
+"r03n" = "Paduvihm";
+"r04d" = "Kerge vihm";
+"r04n" = "Kerge vihm";
+"r05d" = "Vihma";
+"r05n" = "Vihma";
+"r06d" = "Paduvihm";
+"r06n" = "Paduvihm";
+"f01d" = "Vihma";
+"f01n" = "Vihma";
+"d01d" = "Vihma";
+"d01n" = "Vihma";
+"d02d" = "Vihma";
+"d02n" = "Vihma";
+"d03d" = "Vihma";
+"d03n" = "Vihma";
+"t01d" = "Äikesetorm koos vihmaga";
+"t01n" = "Äikesetorm koos vihmaga";
+"t02d" = "Äikesetorm koos vihmaga";
+"t02n" = "Äikesetorm koos vihmaga";
+"t03d" = "Äikesetorm koos hoovihmaga";
+"t03n" = "Äikesetorm koos hoovihmaga";
+"t04d" = "Äikesetorm koos hoovihmaga";
+"t04n" = "Äikesetorm koos hoovihmaga";
+"t05d" = "Äikesetorm koos rahega";
+"t05n" = "Äikesetorm koos rahega";
+
+"feels_like" = "Tundub nagu";
+"sunrise" = "Päikesetõus";
+"sunset" = "Päikeseloojang";
+
+"now" = "Nüüd";
+"morning" = "Hommik";
+"day" = "Päev";
+"evening" = "Õhtu";
+"night" = "Öö";
+
+"units" = "Ühikud";
+"temp" = "Temperatuur";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Tuul";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Surve";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "Nähtavus";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "madal";
+"moderate" = "mõõdukas";
+"high" = "kõrge";
+"humidity" = "Niiskus";
+"precipitation" = "Sademed";
+"mm" = "mm";
+
+"weather_feeling" = "Ilmatunne";
+"hotter" = "Kuumem";
+"colder" = "Külmem";
+"weather_feeling_description" = "Täpsustage seda, kas teile tundub, et temperatuur on tegelikust kuumem või külmem. Tegelase näitamisel kaalume teie valikut.";
+
+"person" = "Isik";
+"show_person" = "Näita inimest";
+"sex" = "Sugu";
+"male" = "meessoost";
+"female" = "naissoost";
+"appearance" = "Välimus";
+"skin_color" = "Nahavärv";
+"haircut" = "Juukselõikus";
+"haircut_color" = "Juukselõikuse värv";
+"beard" = "Habe";
+"beard_color" = "Habe värv";
+"wardrobe" = "Garderoob";
+"outerwear" = "Ülerõivad";
+"top" = "Üles";
+"bottom" = "Altpoolt";
+"shoes" = "Kingad";
+"accessories" = "Aksessuaarid";
+
+"notifications" = "Märguanded";
+"time" = "Aeg";
+
+"support" = "Toetus";
+"rate_app" = "Hinda rakendust";
+"write_to_dev" = "Kirjutage arendajatele";
+
+"my_geo" = "Minu geopositsioon";
+"search_placeholder" = "Otsige linna";
+
+"internet_error_title" = "Ühenduse viga";
+"internet_error_text" = "Oih! Tundub, et internetti pole. Palun kontrolli oma ühendust.";
+"geo_error_title" = "Geolokatsioon pole saadaval";
+"geo_error_text" = "Kahjuks ei saa teie asukohta teada. Palun lubage süsteemiseadetes juurdepääs oma asukohale.";
+"unknown_error_title" = "Midagi läks valesti...";
+"unknown_error_text" = "Vabandust, midagi läks valesti. Palun võtke meiega ühendust ja me parandame selle.";
+"notifications_error_title" = "Loa viga";
+"notifications_error_text" = "Kontrollige oma märguannete luba seadetes.";
+"go_to_settings" = "Mine seadistustesse";
+"try_again" = "Proovige uuesti";
+
+"rate_title" = "Kas teile meeldib TheWear?";
+"rate_description" = "Kas teile meeldib rakendus või teil on midagi öelda, me kuuleme seda hea meelega.";
+"go_to_appstore" = "Mine AppStore'i";
+
+"extremely_cold" = "Väljas ülikülm! Pane selga soojad talveriided.";
+"frosty" = "Väljas on külm! Pane soe jope, sall, müts ja kindad selga.";
+"freezing" = "See on külmavõitu! Pane mantel või jope, müts, sall ja kindad selga.";
+"chilly" = "Pane kerge jope või mantel selga, väljas on külm.";
+"less_chilly" = "Tundub külm, pane mantel või kerge jope koos kapuutsiga selga.";
+"cool" = "Tundub külm, pane kerge jope ja kapuutsiga jope selga.";
+"feels_warm" = "Tundub soe, pane peale kerge jope koos kapuutsiga.";
+"warm_man" = "Väljas on soe, pane selga kapuuts või teksadega dressipluus.";
+"warm_woman" = "Väljas on soe, pane selga kapuuts või pika seelikuga dressipluus.";
+"feels_warmer_man" = "Tundub soe, pane selga dressipluus koos teksade või lühikeste pükstega.";
+"feels_warmer_woman" = "Tundub soe, pane selga seelikuga pluus.";
+"really_warm_man" = "Väljas on väga soe, pane selga pikkade varrukatega teksad või lühikesed püksid.";
+"really_warm_woman" = "Väljas on väga soe, pane selga kleit või tuunika koos seelikuga.";
+"hot_man" = "Väljas on palav, pane selga teksapükstega T-särk või äkki lühikesed püksid.";
+"hot_woman" = "Väljas on soe, pane selga kleit või pluus koos kerge seelikuga.";
+"feels_hot_man" = "Tundub kuum! Pange selga kõige kergemad riided.";
+"feels_hot_woman" = "Tundub kuum! Pange selga kõige kergemad riided.";
+
+"extremely_cold_short" = "Äärmiselt külm! Pange soojad riided selga.";
+"frosty_short" = "Tundub külmavõitu! Pane soojad riided selga.";
+"freezing_short" = "On külmavõitu! Pane soojad riided selga.";
+"chilly_short" = "Pane kerge jope või mantel selga.";
+"less_chilly_short" = "Pane selga mantel koos kapuutsiga.";
+"cool_short" = "Pane selga kerge jope koos kapuutsiga.";
+"feels_warm_short" = "Pane kerge jope ja kapuutsiga jope selga.";
+"warm_man_short" = "Pane selga kapuutsiga teksad.";
+"warm_woman_short" = "Pane selga kapuuts ja pikk seelik.";
+"feels_warmer_man_short" = "Pane dressipluus koos teksadega.";
+"feels_warmer_woman_short" = "Pane pluus koos seelikuga.";
+"really_warm_man_short" = "Pane selga pikajuukseline pluus koos lühikeste pükstega.";
+"really_warm_woman_short" = "Pane tuunika koos seelikuga.";
+"hot_man_short" = "Pane T-särk koos lühikeste pükstega.";
+"hot_woman_short" = "Pane pluus kerge seelikuga.";
+"feels_hot_man_short" = "Tundub kuum! Pane selga kõige kergemad riided.";
+"feels_hot_woman_short" = "Tundub kuum! Pane kõige kergemad riided selga.";
+
+"gale_force_wind" = "Meeletormiline tuul.";
+"strong_wind" = "Arvestage tugeva tuulega.";
+
+"rain_morning" = "Hommikul on oodata vihma.";
+"rain_afternoon" = "Pärastlõunal on oodata vihma.";
+"rain_evening" = "Õhtul on oodata vihma.";
+"rain_night" = "Öösel on oodata vihma.";
+"rain_day" = "Päeval on oodata hoovihma.";
+"rain_morning_afternoon" = "Hommikul ja pärastlõunal on oodata vihma.";
+"rain_morning_evening" = "Hommikul ja õhtul on oodata vihma.";
+"rain_afternoon_evening" = "Pärastlõunal ja õhtul on oodata vihma.";
+"umbrella" = "Ärge unustage vihmavarju!";
+
+"snow_morning" = "Hommikul on oodata lund.";
+"snow_afternoon" = "Pärastlõunal on oodata lund.";
+"snow_evening" = "Õhtul on oodata lund.";
+"snow_night" = "Öösel on oodata lund.";
+"snow_day" = "Päeval on oodata lund.";
+"snow_morning_afternoon" = "Hommikul ja pärastlõunal on oodata lund.";
+"snow_morning_evening" = "Hommikul ja õhtul on oodata lund.";
+"snow_afternoon_evening" = "Pärastlõunal ja õhtul on oodata lund.";
+"rain_for_hour" = "Lähiajal on oodata vihma.";
+"snow_for_hour" = "Lähitulevikus on oodata lund.";
+"snow_rain" = "Oodata on lund ja vihma.";
+
+"check_forecast" = "Kontrollige prognoose rakenduses.";
+"weather_forecast" = "Ilmateade";
+"forecast_today" = "Tundub nagu temperatuur tänaseks päevaks";
+"forecast_next_hour" = "Tundub, et järgmise tunni temperatuur on";
+"min" = "min";
+"max" = "max";
+"min_temp_is" = "Minimaalne temperatuur on";
+"max_temp_is" = "maksimaalne temperatuur on";
+
+"explanation_title" = "Sinu riidekapp";
+"explanation_text" = "Saate valida mis tahes riided ja värvid, et luua oma tegelase välimus põhiekraanil.";
+
+"current_weather_widget_title" = "Praegune ilmastik";
+"current_weather_widget_description" = "Näitab tegelikku temperatuuri ja riietussoovitust teie praeguse asukoha või viimati näidatud linna kohta.";
+"current_weather_widget_placeholder" = "Ei suutnud ilmataat laadida. Avage rakendus.";
