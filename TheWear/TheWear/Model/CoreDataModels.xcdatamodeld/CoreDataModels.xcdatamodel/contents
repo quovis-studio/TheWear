@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21F5071b" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CurrentWeather" representedClassName="CurrentWeather" syncable="YES" codeGenerationType="class">
+        <attribute name="app_temp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="city_name" optional="YES" attributeType="String"/>
+        <attribute name="datetime" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="precip" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="pres" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="rh" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sunrise" optional="YES" attributeType="String"/>
+        <attribute name="sunset" optional="YES" attributeType="String"/>
+        <attribute name="temp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String"/>
+        <attribute name="ts" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="uv" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="vis" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="wind_spd" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="hasWeather" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Weather" inverseName="belongsToCurrent" inverseEntity="Weather"/>
+    </entity>
+    <entity name="ForecastResponse" representedClassName="ForecastResponse" syncable="YES" codeGenerationType="class">
+        <attribute name="city_name" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="lon" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="timezone" optional="YES" attributeType="String"/>
+        <relationship name="hasForecasts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ForecastWeather" inverseName="belongsToResponse" inverseEntity="ForecastWeather"/>
+    </entity>
+    <entity name="ForecastWeather" representedClassName="ForecastWeather" syncable="YES" codeGenerationType="class">
+        <attribute name="app_max_temp" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="app_min_temp" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="datetime" optional="YES" attributeType="String"/>
+        <attribute name="high_temp" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="low_temp" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="max_temp" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="min_temp" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="pop" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="pres" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="rh" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="sunrise_ts" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sunset_ts" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="temp" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="uv" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="vis" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="wind_spd" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <relationship name="belongsToResponse" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="ForecastResponse" inverseName="hasForecasts" inverseEntity="ForecastResponse"/>
+        <relationship name="hasWeather" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Weather" inverseName="belongsToForecast" inverseEntity="Weather"/>
+    </entity>
+    <entity name="HoursResponse" representedClassName="HoursResponse" syncable="YES" codeGenerationType="class">
+        <attribute name="city_name" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="lon" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <relationship name="hasHours" optional="YES" toMany="YES" minCount="1" maxCount="10" deletionRule="Cascade" destinationEntity="HourWeather" inverseName="belongsToResponse" inverseEntity="HourWeather"/>
+    </entity>
+    <entity name="HourWeather" representedClassName="HourWeather" syncable="YES" codeGenerationType="class">
+        <attribute name="app_temp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="datetime" optional="YES" attributeType="String"/>
+        <attribute name="pod" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="pop" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="precip" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="pres" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="rh" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="temp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="timestamp_local" optional="YES" attributeType="String"/>
+        <attribute name="timestamp_utc" optional="YES" attributeType="String"/>
+        <attribute name="ts" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="uv" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="vis" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="wind_spd" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="belongsToResponse" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="HoursResponse" inverseName="hasHours" inverseEntity="HoursResponse"/>
+        <relationship name="hasWeather" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Weather" inverseName="belongsToHour" inverseEntity="Weather"/>
+    </entity>
+    <entity name="Weather" representedClassName="Weather" syncable="YES" codeGenerationType="class">
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="descriptioon" optional="YES" attributeType="String"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <relationship name="belongsToCurrent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CurrentWeather" inverseName="hasWeather" inverseEntity="CurrentWeather"/>
+        <relationship name="belongsToForecast" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ForecastWeather" inverseName="hasWeather" inverseEntity="ForecastWeather"/>
+        <relationship name="belongsToHour" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HourWeather" inverseName="hasWeather" inverseEntity="HourWeather"/>
+    </entity>
+    <elements>
+        <element name="CurrentWeather" positionX="-54" positionY="-9" width="128" height="298"/>
+        <element name="ForecastResponse" positionX="-212.1024169921875" positionY="290.258544921875" width="128" height="118"/>
+        <element name="ForecastWeather" positionX="7.494140625" positionY="336.9571990966797" width="128" height="313"/>
+        <element name="HoursResponse" positionX="-275.5829467773438" positionY="516.2810363769531" width="128" height="88"/>
+        <element name="HourWeather" positionX="-56.12255859375" positionY="687.2381896972656" width="128" height="283"/>
+        <element name="Weather" positionX="494.4894409179688" positionY="366.4425201416016" width="128" height="133"/>
+    </elements>
+</model>

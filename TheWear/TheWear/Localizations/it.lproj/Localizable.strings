@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Soleggiato";
+"c01n" = "Chiaro";
+"c02d" = "Nuvoloso";
+"c02n" = "Nuvoloso";
+"c03d" = "Nuvoloso";
+"c03n" = "Nuvoloso";
+"c04d" = "Nuvoloso";
+"c04n" = "Nuvoloso";
+"u00d" = "Precipitazione";
+"u00n" = "Precipitazione";
+"a01d" = "Nebbia";
+"a01n" = "Nebbia";
+"a02d" = "Fumo";
+"a02n" = "Fumo";
+"a03d" = "Foschia";
+"a03n" = "Foschia";
+"a04d" = "Sabbia/polvere";
+"a04n" = "Sabbia/polvere";
+"a05d" = "Nebbia";
+"a05n" = "Nebbia";
+"a06d" = "Nebbia";
+"a06n" = "Nebbia";
+"s01d" = "Neve leggera";
+"s01n" = "Neve leggera";
+"s02d" = "Neve";
+"s02n" = "Neve";
+"s03d" = "Forte nevicata";
+"s03n" = "Forte nevicata";
+"s04d" = "Neve con pioggia";
+"s04n" = "Neve con pioggia";
+"s05d" = "Nevischio";
+"s05n" = "Nevischio";
+"s06d" = "Nevicata";
+"s06n" = "Nevicata";
+"r01d" = "Pioggia leggera";
+"r01n" = "Pioggia leggera";
+"r02d" = "Piovere";
+"r02n" = "Piovere";
+"r03d" = "Pioggia intensa";
+"r03n" = "Pioggia intensa";
+"r04d" = "Pioggia leggera";
+"r04n" = "Pioggia leggera";
+"r05d" = "Piovere";
+"r05n" = "Piovere";
+"r06d" = "Pioggia intensa";
+"r06n" = "Pioggia intensa";
+"f01d" = "Piovere";
+"f01n" = "Piovere";
+"d01d" = "Pioggia";
+"d01n" = "Pioggia";
+"d02d" = "Pioggia";
+"d02n" = "Pioggia";
+"d03d" = "Pioggia";
+"d03n" = "Pioggia";
+"t01d" = "Temporale con pioggia";
+"t01n" = "Temporale con pioggia";
+"t02d" = "Temporale con pioggia";
+"t02n" = "Temporale con pioggia";
+"t03d" = "Temporale con doccia";
+"t03n" = "Temporale con doccia";
+"t04d" = "Temporale con pioggerella";
+"t04n" = "Temporale con pioggerella";
+"t05d" = "Temporale con grandine";
+"t05n" = "Temporale con grandine";
+
+"feels_like" = "Si sente come";
+"sunrise" = "Alba";
+"sunset" = "Tramonto";
+
+"now" = "Adesso";
+"morning" = "Mattina";
+"day" = "Giorno";
+"evening" = "Sera";
+"night" = "Notte";
+
+"units" = "Unità";
+"temp" = "Temperatura";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Vento";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Pressione";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "Visibilità";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "basso";
+"moderate" = "moderare";
+"high" = "alto";
+"humidity" = "Umidità";
+"precipitation" = "Precipitazione";
+"mm" = "mm";
+
+"weather_feeling" = "Sensazione meteorologica";
+"hotter" = "Più caldo";
+"colder" = "Più freddo";
+"weather_feeling_description" = "Se tendi a sentire la temperatura più calda o più fredda di quanto non sia in realtà, specificalo. Prenderemo in considerazione la tua scelta quando mostreremo il personaggio.";
+
+"person" = "Persona";
+"show_person" = "Mostra persona";
+"sex" = "Sesso";
+"male" = "maschio";
+"female" = "femmina";
+"appearance" = "Aspetto esteriore";
+"skin_color" = "Colore della pelle";
+"haircut" = "Taglio di capelli";
+"haircut_color" = "Colore del taglio di capelli";
+"beard" = "Barba";
+"beard_color" = "Colore della barba";
+"wardrobe" = "Armadio";
+"outerwear" = "Capispalla";
+"top" = "Superiore";
+"bottom" = "Parte inferiore";
+"shoes" = "Scarpe";
+"accessories" = "Accessori";
+
+"notifications" = "Notifiche";
+"time" = "Volta";
+
+"support" = "Supporto";
+"rate_app" = "Valuta l'app";
+"write_to_dev" = "Scrivi agli sviluppatori";
+
+"my_geo" = "Il mio geografico";
+"search_placeholder" = "Cerca una città";
+
+"internet_error_title" = "Errore di connessione";
+"internet_error_text" = "Ops! Sembra niente internet. Per favore, controlla la tua connessione.";
+"geo_error_title" = "La geolocalizzazione non è disponibile";
+"geo_error_text" = "Spiacenti, non riesco a ottenere la tua posizione. Per favore, consenti l'accesso alla tua posizione nelle impostazioni di sistema.";
+"unknown_error_title" = "Qualcosa è andato storto...";
+"unknown_error_text" = "Scusa, qualcosa è andato storto. Per favore, contattaci e lo sistemeremo.";
+"notifications_error_title" = "Errore di autorizzazione";
+"notifications_error_text" = "Per favore, controlla la tua autorizzazione per le notifiche nelle impostazioni.";
+"go_to_settings" = "Vai alle impostazioni";
+"try_again" = "Riprova";
+
+"rate_title" = "Ti piace TheWear?";
+"rate_description" = "Che ti piaccia l'app o che tu abbia qualcosa da dire, ci piacerebbe sentirla.";
+"go_to_appstore" = "Vai all'AppStore";
+
+"extremely_cold" = "Fuori molto freddo! Indossa abiti invernali caldi.";
+"frosty" = "Fuori c'è il gelo! Indossate una giacca calda, una sciarpa, un cappello e dei guanti.";
+"freezing" = "Si gela! Indossate un cappotto o una giacca, un cappello, una sciarpa e dei guanti.";
+"chilly" = "Indossa una giacca leggera o un cappotto, fuori fa freddo.";
+"less_chilly" = "Fa freddo, indossa un cappotto o una giacca leggera con cappuccio.";
+"cool" = "Fa freddo, indossa una giacca leggera con cappuccio.";
+"feels_warm" = "Sento caldo, indosso una giacca leggera con cappuccio.";
+"warm_man" = "Fuori fa caldo, indossa una felpa con cappuccio o una felpa con i jeans.";
+"warm_woman" = "Fuori fa caldo, indossa una felpa con cappuccio o una felpa con una gonna lunga.";
+"feels_warmer_man" = "Sento caldo, indossa una felpa con jeans o pantaloncini.";
+"feels_warmer_woman" = "Si sente caldo, indossa una camicetta con una gonna.";
+"really_warm_man" = "Fuori fa molto caldo, indossare una maglia a maniche lunghe con jeans o pantaloncini.";
+"really_warm_woman" = "Fuori fa molto caldo, indossare un vestito o una tunica con una gonna.";
+"hot_man" = "Fuori fa caldo, indossa una maglietta con dei jeans o magari dei pantaloncini.";
+"hot_woman" = "Fuori fa caldo, indossare un vestito o una camicetta con una gonna leggera.";
+"feels_hot_man" = "Si sente caldo! Indossa i vestiti più leggeri.";
+"feels_hot_woman" = "Si sente caldo! Indossa i vestiti più leggeri.";
+
+"extremely_cold_short" = "Estremamente freddo! Indossare abiti caldi.";
+"frosty_short" = "Si sente il gelo! Indossare abiti caldi.";
+"freezing_short" = "Si gela! Indossare abiti caldi.";
+"chilly_short" = "Indossare una giacca leggera o un cappotto.";
+"less_chilly_short" = "Indossare un cappotto con cappuccio.";
+"cool_short" = "Indossare una giacca leggera con cappuccio.";
+"feels_warm_short" = "Indossare una giacca leggera con cappuccio.";
+"warm_man_short" = "Indossare una felpa con cappuccio e jeans.";
+"warm_woman_short" = "Indossare una felpa con cappuccio e una gonna lunga.";
+"feels_warmer_man_short" = "Indossare una felpa con i jeans.";
+"feels_warmer_woman_short" = "Indossare una camicetta con una gonna.";
+"really_warm_man_short" = "Indossare una maglia a maniche lunghe con i pantaloncini.";
+"really_warm_woman_short" = "Indossare una tunica con una gonna.";
+"hot_man_short" = "Indossare una maglietta con i pantaloncini.";
+"hot_woman_short" = "Indossare una camicetta con una gonna leggera.";
+"feels_hot_man_short" = "Fa caldo! Indossare i vestiti più leggeri.";
+"feels_hot_woman_short" = "Fa caldo! Indossare i vestiti più leggeri.";
+
+"gale_force_wind" = "Mente vento di burrasca.";
+"strong_wind" = "Mente vento forte.";
+
+"rain_morning" = "Prevista pioggia in mattinata.";
+"rain_afternoon" = "Prevista pioggia nel pomeriggio.";
+"rain_evening" = "Prevista pioggia in serata.";
+"rain_night" = "Prevista pioggia di notte.";
+"rain_day" = "Previste piogge in giornata.";
+"rain_morning_afternoon" = "Previste piogge in mattinata e pomeriggio.";
+"rain_morning_evening" = "Previste piogge al mattino e alla sera.";
+"rain_afternoon_evening" = "Previste piogge nel pomeriggio e in serata.";
+"umbrella" = "Non dimenticare un ombrello!";
+
+"snow_morning" = "Prevista neve in mattinata.";
+"snow_afternoon" = "Prevista neve nel pomeriggio.";
+"snow_evening" = "Prevista neve in serata.";
+"snow_night" = "Prevista neve di notte.";
+"snow_day" = "Prevista neve in giornata.";
+"snow_morning_afternoon" = "Prevista neve in mattinata e pomeriggio.";
+"snow_morning_evening" = "Prevista neve al mattino e alla sera.";
+"snow_afternoon_evening" = "Prevista neve nel pomeriggio e in serata.";
+"rain_for_hour" = "Si prevede pioggia nel prossimo futuro.";
+"snow_for_hour" = "La neve è prevista nel prossimo futuro.";
+"snow_rain" = "Previste neve e pioggia.";
+
+"check_forecast" = "Controlla le previsioni nell'app.";
+"weather_forecast" = "Previsioni del tempo";
+"forecast_today" = "Temperatura percepita per oggi";
+"forecast_next_hour" = "La temperatura prevista per la prossima ora è";
+"min" = "min";
+"max" = "max";
+"min_temp_is" = "La temperatura minima è";
+"max_temp_is" = "la temperatura massima è";
+
+"explanation_title" = "Il tuo guardaroba";
+"explanation_text" = "Puoi scegliere qualsiasi vestito e colore per creare l'aspetto del tuo personaggio nella schermata principale.";
+
+"current_weather_widget_title" = "Tempo corrente";
+"current_weather_widget_description" = "Mostra la temperatura attuale e i vestiti consigliati per la posizione attuale o per l'ultima città visualizzata.";
+"current_weather_widget_placeholder" = "Impossibile caricare il meteo. Aprire l'applicazione.";

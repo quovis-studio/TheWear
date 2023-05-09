@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Sunny";
+"c01n" = "Clear";
+"c02d" = "Cloudy";
+"c02n" = "Cloudy";
+"c03d" = "Cloudy";
+"c03n" = "Cloudy";
+"c04d" = "Overcast";
+"c04n" = "Overcast";
+"u00d" = "Precipitation";
+"u00n" = "Precipitation";
+"a01d" = "Mist";
+"a01n" = "Mist";
+"a02d" = "Smoke";
+"a02n" = "Smoke";
+"a03d" = "Haze";
+"a03n" = "Haze";
+"a04d" = "Sand/dust";
+"a04n" = "Sand/dust";
+"a05d" = "Fog";
+"a05n" = "Fog";
+"a06d" = "Fog";
+"a06n" = "Fog";
+"s01d" = "Light snow";
+"s01n" = "Light snow";
+"s02d" = "Snow";
+"s02n" = "Snow";
+"s03d" = "Heavy snow";
+"s03n" = "Heavy snow";
+"s04d" = "Snow with rain";
+"s04n" = "Snow with rain";
+"s05d" = "Sleet";
+"s05n" = "Sleet";
+"s06d" = "Snowfall";
+"s06n" = "Snowfall";
+"r01d" = "Light rain";
+"r01n" = "Light rain";
+"r02d" = "Rain";
+"r02n" = "Rain";
+"r03d" = "Heavy rain";
+"r03n" = "Heavy rain";
+"r04d" = "Light rain";
+"r04n" = "Light rain";
+"r05d" = "Rain";
+"r05n" = "Rain";
+"r06d" = "Heavy rain";
+"r06n" = "Heavy rain";
+"f01d" = "Rain";
+"f01n" = "Rain";
+"d01d" = "Drizzle";
+"d01n" = "Drizzle";
+"d02d" = "Drizzle";
+"d02n" = "Drizzle";
+"d03d" = "Drizzle";
+"d03n" = "Drizzle";
+"t01d" = "Thunderstorm with rain";
+"t01n" = "Thunderstorm with rain";
+"t02d" = "Thunderstorm with rain";
+"t02n" = "Thunderstorm with rain";
+"t03d" = "Thunderstorm with shower";
+"t03n" = "Thunderstorm with shower";
+"t04d" = "Thunderstorm with drizzle";
+"t04n" = "Thunderstorm with drizzle";
+"t05d" = "Thunderstorm with hail";
+"t05n" = "Thunderstorm with hail";
+
+"feels_like" = "Feels like";
+"sunrise" = "Sunrise";
+"sunset" = "Sunset";
+
+"now" = "Now";
+"morning" = "Morning";
+"day" = "Day";
+"evening" = "Evening";
+"night" = "Night";
+
+"units" = "Units";
+"temp" = "Temperature";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Wind";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Pressure";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "Visibility";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "low";
+"moderate" = "moderate";
+"high" = "high";
+"humidity" = "Humidity";
+"precipitation" = "Precipitation";
+"mm" = "mm";
+
+"weather_feeling" = "Weather feeling";
+"hotter" = "Hotter";
+"colder" = "Colder";
+"weather_feeling_description" = "Whether you tend to feel the temperature hotter or colder than it actually is, specify it. We’ll consider your choice when showing the character.";
+
+"person" = "Person";
+"show_person" = "Show person";
+"sex" = "Sex";
+"male" = "male";
+"female" = "female";
+"appearance" = "Appearance";
+"skin_color" = "Skin color";
+"haircut" = "Haircut";
+"haircut_color" = "Haircut color";
+"beard" = "Beard";
+"beard_color" = "Beard color";
+"wardrobe" = "Wardrobe";
+"outerwear" = "Outerwear";
+"top" = "Top";
+"bottom" = "Bottom";
+"shoes" = "Shoes";
+"accessories" = "Accessories";
+
+"notifications" = "Notifications";
+"time" = "Time";
+
+"support" = "Support";
+"rate_app" = "Rate the app";
+"write_to_dev" = "Write to developers";
+
+"my_geo" = "My geoposition";
+"search_placeholder" = "Search for a city";
+
+"internet_error_title" = "Connection error";
+"internet_error_text" = "Oops! Looks like no internet. Please, check your connection.";
+"geo_error_title" = "Geolocation is unavailable";
+"geo_error_text" = "Sorry, can't get your location. Please, allow access to your location in system settings.";
+"unknown_error_title" = "Something went wrong...";
+"unknown_error_text" = "Sorry, something went wrong. Please, contact us and we'll fix it.";
+"notifications_error_title" = "Permission error";
+"notifications_error_text" = "Please, check your permission for notifications in settings.";
+"go_to_settings" = "Go to settings";
+"try_again" = "Try again";
+
+"rate_title" = "Enjoying TheWear?";
+"rate_description" = "Whether you like the app or have something to say, we'd love to hear it.";
+"go_to_appstore" = "Go to AppStore";
+
+"extremely_cold" = "Extremely cold outside! Put on warm winter clothes.";
+"frosty" = "Feels frosty outside! Put on a warm jacket, a scarf, a hat and gloves.";
+"freezing" = "It's freezing! Put on a coat or a jacket, a hat, a scarf and gloves.";
+"chilly" = "Put on a light jacket or a coat, feels chilly outside.";
+"less_chilly" = "Feels chilly, put on a coat or a light jacket with a hoodie.";
+"cool" = "Feels chilly, put on a light jacket with a hoodie.";
+"feels_warm" = "Feels warm, put on a light jacket with a hoodie.";
+"warm_man" = "It's warm outside, put on a hoodie or a sweatshirt with jeans.";
+"warm_woman" = "It's warm outside, put on a hoodie or a sweatshirt with a long skirt.";
+"feels_warmer_man" = "Feels warm, put on a sweatshirt with jeans or shorts.";
+"feels_warmer_woman" = "Feels warm, put on a blouse with a skirt.";
+"really_warm_man" = "It's really warm outside, put on a longsleeve with jeans or shorts.";
+"really_warm_woman" = "It's really warm outside, put on a dress or a tunic with a skirt.";
+"hot_man" = "It's hot outside, put on a T-shirt with jeans or maybe shorts.";
+"hot_woman" = "It's hot outside, put on a dress or a blouse with a light skirt.";
+"feels_hot_man" = "Feels hot! Put on the lightest clothes.";
+"feels_hot_woman" = "Feels hot! Put on the lightest clothes.";
+
+"extremely_cold_short" = "Extremely cold! Put on the warmest clothes.";
+"frosty_short" = "Feels frosty! Put on warm clothes.";
+"freezing_short" = "It's freezing! Put on warm clothes.";
+"chilly_short" = "Put on a light jacket or a coat.";
+"less_chilly_short" = "Put on a coat or a light jacket with a hoodie.";
+"cool_short" = "Put on a light jacket with a hoodie.";
+"feels_warm_short" = "Put on a light jacket with a hoodie.";
+"warm_man_short" = "Put on a hoodie or a sweatshirt with jeans.";
+"warm_woman_short" = "Put on a hoodie or a sweatshirt with a long skirt.";
+"feels_warmer_man_short" = "Put on a sweatshirt with jeans or shorts.";
+"feels_warmer_woman_short" = "Put on a blouse with a skirt.";
+"really_warm_man_short" = "Put on a longsleeve with jeans or shorts.";
+"really_warm_woman_short" = "Put on a dress or a tunic with a skirt.";
+"hot_man_short" = "Put on a T-shirt with shorts.";
+"hot_woman_short" = "Put on a dress or a blouse with a light skirt.";
+"feels_hot_man_short" = "Feels hot! Put on the lightest clothes.";
+"feels_hot_woman_short" = "Feels hot! Put on the lightest clothes.";
+
+"gale_force_wind" = "Mind gale-force wind.";
+"strong_wind" = "Mind strong wind.";
+
+"rain_morning" = "Rain expected in the morning.";
+"rain_afternoon" = "Rain expected in the afternoon.";
+"rain_evening" = "Rain expected in the evening.";
+"rain_night" = "Rain expected at night.";
+"rain_day" = "Rains expected during the day.";
+"rain_morning_afternoon" = "Rains expected in the morning and afternoon.";
+"rain_morning_evening" = "Rains expected in the morning and evening.";
+"rain_afternoon_evening" = "Rains expected in the afternoon and evening.";
+"umbrella" = "Don't forget an umbrella!";
+
+"snow_morning" = "Snow expected in the morning.";
+"snow_afternoon" = "Snow expected in the afternoon.";
+"snow_evening" = "Snow expected in the evening.";
+"snow_night" = "Snow expected at night.";
+"snow_day" = "Snow expected during the day.";
+"snow_morning_afternoon" = "Snow expected in the morning and afternoon.";
+"snow_morning_evening" = "Snow expected in the morning and evening.";
+"snow_afternoon_evening" = "Snow expected in the afternoon and evening.";
+"rain_for_hour" = "Rain is expected shortly.";
+"snow_for_hour" = "Snow is expected shortly.";
+"snow_rain" = "Snow and rain expected.";
+
+"check_forecast" = "Check the forecast in the app.";
+"weather_forecast" = "Weather forecast";
+"forecast_today" = "Feels like temperature for today";
+"forecast_next_hour" = "Feels like temperature for the next hour is";
+"min" = "min";
+"max" = "max";
+"min_temp_is" = "Minimum temperature is";
+"max_temp_is" = "maximum temperature is";
+
+"explanation_title" = "Your wardrobe";
+"explanation_text" = "You can choose any clothes and colors to create a look of your character on the main screen.";
+
+"current_weather_widget_title" = "Current weather";
+"current_weather_widget_description" = "Shows actual temperature and clothes recommendation for your current location or last city shown.";
+"current_weather_widget_placeholder" = "Couldn't load the weather. Open the app.";

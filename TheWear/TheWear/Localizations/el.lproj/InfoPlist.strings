@@ -1,0 +1,10 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+NSLocationAlwaysUsageDescription = "Το TheWear πρέπει να γνωρίζει την τοποθεσία σας για να παρέχει την πιο ακριβή πρόβλεψη.";
+NSLocationUsageDescription = "Το TheWear πρέπει να γνωρίζει την τοποθεσία σας για να παρέχει την πιο ακριβή πρόβλεψη.";
+NSLocationWhenInUseUsageDescription = "Το TheWear πρέπει να γνωρίζει την τοποθεσία σας για να παρέχει την πιο ακριβή πρόβλεψη.";

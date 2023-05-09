@@ -1,0 +1,10 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+NSLocationAlwaysUsageDescription = "TheWear 需要知道您的位置以提供最准确的预测。";
+NSLocationUsageDescription = "TheWear 需要知道您的位置以提供最准确的预测。";
+NSLocationWhenInUseUsageDescription = "TheWear 需要知道您的位置以提供最准确的预测。";

@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Zonnig";
+"c01n" = "Duidelijk";
+"c02d" = "Bewolkt";
+"c02n" = "Bewolkt";
+"c03d" = "Bewolkt";
+"c03n" = "Bewolkt";
+"c04d" = "Bewolkt";
+"c04n" = "Bewolkt";
+"u00d" = "Neerslag";
+"u00n" = "Neerslag";
+"a01d" = "De nevel";
+"a01n" = "De nevel";
+"a02d" = "Rook";
+"a02n" = "Rook";
+"a03d" = "Nevel";
+"a03n" = "Nevel";
+"a04d" = "Zand/stof";
+"a04n" = "Zand/stof";
+"a05d" = "Mist";
+"a05n" = "Mist";
+"a06d" = "Mist";
+"a06n" = "Mist";
+"s01d" = "Lichte sneeuw";
+"s01n" = "Lichte sneeuw";
+"s02d" = "Sneeuw";
+"s02n" = "Sneeuw";
+"s03d" = "Zware sneeuw";
+"s03n" = "Zware sneeuw";
+"s04d" = "Sneeuw met regen";
+"s04n" = "Sneeuw met regen";
+"s05d" = "Natte sneeuw";
+"s05n" = "Natte sneeuw";
+"s06d" = "Sneeuwval";
+"s06n" = "Sneeuwval";
+"r01d" = "Lichte regen";
+"r01n" = "Lichte regen";
+"r02d" = "Regenen";
+"r02n" = "Regenen";
+"r03d" = "Zware regen";
+"r03n" = "Zware regen";
+"r04d" = "Lichte regen";
+"r04n" = "Lichte regen";
+"r05d" = "Regenen";
+"r05n" = "Regenen";
+"r06d" = "Zware regen";
+"r06n" = "Zware regen";
+"f01d" = "Regenen";
+"f01n" = "Regenen";
+"d01d" = "Motregen";
+"d01n" = "Motregen";
+"d02d" = "Motregen";
+"d02n" = "Motregen";
+"d03d" = "Motregen";
+"d03n" = "Motregen";
+"t01d" = "Onweer met regen";
+"t01n" = "Onweer met regen";
+"t02d" = "Onweer met regen";
+"t02n" = "Onweer met regen";
+"t03d" = "Onweer met bui";
+"t03n" = "Onweer met bui";
+"t04d" = "Onweer met motregen";
+"t04n" = "Onweer met motregen";
+"t05d" = "Onweer met hagel";
+"t05n" = "Onweer met hagel";
+
+"feels_like" = "Voelt als";
+"sunrise" = "Zonsopkomst";
+"sunset" = "Zonsondergang";
+
+"now" = "Nu";
+"morning" = "Ochtend";
+"day" = "Dag";
+"evening" = "Avond";
+"night" = "Nacht";
+
+"units" = "Eenheden";
+"temp" = "Temperatuur";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Wind";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Druk";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "Zichtbaarheid";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "laag";
+"moderate" = "gematigd";
+"high" = "hoog";
+"humidity" = "Vochtigheid";
+"precipitation" = "Neerslag";
+"mm" = "mm";
+
+"weather_feeling" = "Weergevoel";
+"hotter" = "Heter";
+"colder" = "Kouder";
+"weather_feeling_description" = "Of u de temperatuur nu warmer of kouder voelt dan het in werkelijkheid is, specificeer het. We houden rekening met je keuze bij het tonen van het personage.";
+
+"person" = "Persoon";
+"show_person" = "Toon persoon";
+"sex" = "Geslacht";
+"male" = "mannelijk";
+"female" = "vrouw";
+"appearance" = "Uiterlijk";
+"skin_color" = "Huidskleur";
+"haircut" = "Kapsel";
+"haircut_color" = "Kapsel kleur";
+"beard" = "Baard";
+"beard_color" = "Baard kleur";
+"wardrobe" = "Garderobe";
+"outerwear" = "Bovenkleding";
+"top" = "Bovenkant";
+"bottom" = "Onderkant";
+"shoes" = "Schoenen";
+"accessories" = "Accessoires";
+
+"notifications" = "Meldingen";
+"time" = "Tijd";
+
+"support" = "Steun";
+"rate_app" = "Beoordeel de app";
+"write_to_dev" = "Schrijf naar ontwikkelaars";
+
+"my_geo" = "Mijn geopositie";
+"search_placeholder" = "Zoek een stad";
+
+"internet_error_title" = "Verbindingsfout";
+"internet_error_text" = "Oeps! Het lijkt erop dat er geen internet is. Controleer uw verbinding.";
+"geo_error_title" = "Geolocatie is niet beschikbaar";
+"geo_error_text" = "Sorry, kan je locatie niet ophalen. Geef alstublieft toegang tot uw locatie in de systeeminstellingen.";
+"unknown_error_title" = "Er is iets fout gegaan...";
+"unknown_error_text" = "Sorry, er ging iets mis. Neem alsjeblieft contact met ons op, dan lossen we het op.";
+"notifications_error_title" = "Toestemmingsfout";
+"notifications_error_text" = "Controleer je toestemming voor meldingen in de instellingen.";
+"go_to_settings" = "Ga naar instellingen";
+"try_again" = "Probeer het nog eens";
+
+"rate_title" = "Genieten van TheWear?";
+"rate_description" = "Of je de app nu leuk vindt of iets te zeggen hebt, we horen het graag.";
+"go_to_appstore" = "Ga naar AppStore";
+
+"extremely_cold" = "Extreem koud buiten! Trek warme winterkleren aan.";
+"frosty" = "Het vriest buiten! Doe een warme jas aan, een sjaal, een muts en handschoenen.";
+"freezing" = "Het vriest! Trek een jas of een mantel aan, een muts, een sjaal en handschoenen.";
+"chilly" = "Trek een lichte jas of een mantel aan, het voelt koud aan buiten.";
+"less_chilly" = "Het voelt koud aan, trek een jas of een lichte jas met capuchon aan.";
+"cool" = "Voelt koud aan, trek een lichte jas met capuchon aan.";
+"feels_warm" = "Voelt warm aan, trek een lichte jas met capuchon aan.";
+"warm_man" = "Het is warm buiten, trek een hoodie of sweatshirt met jeans aan.";
+"warm_woman" = "Het is warm buiten, trek een hoodie aan of een sweatshirt met een lange rok.";
+"feels_warmer_man" = "Voelt warm aan, trek een sweater aan met een spijkerbroek of korte broek.";
+"feels_warmer_woman" = "Voelt warm aan, doe een blouse aan met een rokje.";
+"really_warm_man" = "Het is erg warm buiten, trek een longsleeve aan met een spijkerbroek of korte broek.";
+"really_warm_woman" = "Het is echt warm buiten, trek een jurk of tuniek aan met een rok.";
+"hot_man" = "Het is warm buiten, trek een T-shirt aan met een spijkerbroek of misschien een korte broek.";
+"hot_woman" = "Het is warm buiten, trek een jurk of blouse aan met een lichte rok.";
+"feels_hot_man" = "Voelt warm! Trek de lichtste kleren aan.";
+"feels_hot_woman" = "Voelt warm! Trek de lichtste kleren aan.";
+
+"extremely_cold_short" = "Extreem koud! Trek warme kleren aan.";
+"frosty_short" = "Het voelt ijskoud aan! Trek warme kleren aan.";
+"freezing_short" = "Het is ijskoud! Trek warme kleren aan.";
+"chilly_short" = "Trek een lichte jas aan.";
+"less_chilly_short" = "Trek een jas aan met een capuchon.";
+"cool_short" = "Trek een lichte jas aan met een capuchon.";
+"feels_warm_short" = "Trek een lichte jas aan met een capuchon.";
+"warm_man_short" = "Trek een capuchon aan met een spijkerbroek.";
+"warm_woman_short" = "Doe een hoodie aan met een lange rok.";
+"feels_warmer_man_short" = "Trek een sweatshirt aan met een spijkerbroek.";
+"feels_warmer_woman_short" = "Trek een blouse aan met een rok.";
+"really_warm_man_short" = "Trek een longsleeve aan met een korte broek.";
+"really_warm_woman_short" = "Trek een tuniek aan met een rok.";
+"hot_man_short" = "Trek een T-shirt aan met een korte broek.";
+"hot_woman_short" = "Doe een blouse aan met een lichte rok.";
+"feels_hot_man_short" = "Voelt warm aan! Trek de lichtste kleren aan.";
+"feels_hot_woman_short" = "Voelt heet aan! Trek de lichtste kleren aan.";
+
+"gale_force_wind" = "Denk aan stormachtige wind.";
+"strong_wind" = "Let op sterke wind.";
+
+"rain_morning" = "Regen verwacht in de ochtend.";
+"rain_afternoon" = "In de middag wordt regen verwacht.";
+"rain_evening" = "In de avond regen verwacht.";
+"rain_night" = "Vannacht regen verwacht.";
+"rain_day" = "Overdag regen verwacht.";
+"rain_morning_afternoon" = "In de ochtend en middag wordt regen verwacht.";
+"rain_morning_evening" = "Regen verwacht in de ochtend en avond.";
+"rain_afternoon_evening" = "In de middag en avond wordt regen verwacht.";
+"umbrella" = "Vergeet een paraplu niet!";
+
+"snow_morning" = "Sneeuw verwacht in de ochtend.";
+"snow_afternoon" = "In de middag wordt sneeuw verwacht.";
+"snow_evening" = "Sneeuw verwacht in de avond.";
+"snow_night" = "Sneeuw wordt verwacht in de nacht.";
+"snow_day" = "Overdag sneeuw verwacht.";
+"snow_morning_afternoon" = "Sneeuw verwacht in de ochtend en middag.";
+"snow_morning_evening" = "Sneeuw verwacht in de ochtend en avond.";
+"snow_afternoon_evening" = "In de middag en avond sneeuw verwacht.";
+"rain_for_hour" = "Er wordt regen verwacht in de nabije toekomst.";
+"snow_for_hour" = "Er wordt binnenkort sneeuw verwacht.";
+"snow_rain" = "Sneeuw en regen verwacht.";
+
+"check_forecast" = "Bekijk de weersvoorspelling in de app.";
+"weather_forecast" = "Weervoorspelling";
+"forecast_today" = "Gevoelstemperatuur voor vandaag";
+"forecast_next_hour" = "De gevoelstemperatuur voor het komende uur is";
+"min" = "min";
+"max" = "max";
+"min_temp_is" = "Minimum temperatuur is";
+"max_temp_is" = "maximale temperatuur is";
+
+"explanation_title" = "Jouw garderobe";
+"explanation_text" = "Je kunt alle kleding en kleuren kiezen om een uiterlijk van je personage op het hoofdscherm te creëren.";
+
+"current_weather_widget_title" = "Huidig weer";
+"current_weather_widget_description" = "Toont de actuele temperatuur en kledingadvies voor uw huidige locatie of de laatst getoonde stad.";
+"current_weather_widget_placeholder" = "Kan het weer niet laden. Open de app.";

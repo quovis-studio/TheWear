@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "サニー";
+"c01n" = "クリア";
+"c02d" = "曇り";
+"c02n" = "曇り";
+"c03d" = "曇り";
+"c03n" = "曇り";
+"c04d" = "どんよりした";
+"c04n" = "どんよりした";
+"u00d" = "降水量";
+"u00n" = "降水量";
+"a01d" = "靄";
+"a01n" = "靄";
+"a02d" = "煙";
+"a02n" = "煙";
+"a03d" = "ヘイズ";
+"a03n" = "ヘイズ";
+"a04d" = "砂・ちり";
+"a04n" = "砂・ちり";
+"a05d" = "霧";
+"a05n" = "霧";
+"a06d" = "霧";
+"a06n" = "霧";
+"s01d" = "小雪";
+"s01n" = "小雪";
+"s02d" = "雪";
+"s02n" = "雪";
+"s03d" = "大雪";
+"s03n" = "大雪";
+"s04d" = "雪と雨";
+"s04n" = "雪と雨";
+"s05d" = "みぞれ";
+"s05n" = "みぞれ";
+"s06d" = "降雪";
+"s06n" = "降雪";
+"r01d" = "小雨";
+"r01n" = "小雨";
+"r02d" = "雨";
+"r02n" = "雨";
+"r03d" = "大雨";
+"r03n" = "大雨";
+"r04d" = "小雨";
+"r04n" = "小雨";
+"r05d" = "雨";
+"r05n" = "雨";
+"r06d" = "大雨";
+"r06n" = "大雨";
+"f01d" = "雨";
+"f01n" = "雨";
+"d01d" = "霧雨";
+"d01n" = "霧雨";
+"d02d" = "霧雨";
+"d02n" = "霧雨";
+"d03d" = "霧雨";
+"d03n" = "霧雨";
+"t01d" = "雨を伴う雷雨";
+"t01n" = "雨を伴う雷雨";
+"t02d" = "雨を伴う雷雨";
+"t02n" = "雨を伴う雷雨";
+"t03d" = "にわか雨";
+"t03n" = "にわか雨";
+"t04d" = "霧雨を伴う雷雨";
+"t04n" = "霧雨を伴う雷雨";
+"t05d" = "雹を伴う雷雨";
+"t05n" = "雹を伴う雷雨";
+
+"feels_like" = "のように感じている";
+"sunrise" = "日の出";
+"sunset" = "日没";
+
+"now" = "今";
+"morning" = "朝";
+"day" = "日";
+"evening" = "夜";
+"night" = "夜";
+
+"units" = "単位";
+"temp" = "温度";
+"celsius" = "℃";
+"fahrenheit" = "ºF";
+"wind" = "風";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "プレッシャー";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "視認性";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "低い";
+"moderate" = "適度";
+"high" = "高い";
+"humidity" = "湿度";
+"precipitation" = "降水量";
+"mm" = "mm";
+
+"weather_feeling" = "天気の感じ";
+"hotter" = "もっと熱く";
+"colder" = "寒い";
+"weather_feeling_description" = "気温が実際よりも暑く感じたり、寒く感じたりする傾向がある場合は、具体的に記入してください。キャラクターを表示する際に、あなたの選択を検討します。";
+
+"person" = "人";
+"show_person" = "人物を表示";
+"sex" = "性別";
+"male" = "男";
+"female" = "女性";
+"appearance" = "外観";
+"skin_color" = "肌の色";
+"haircut" = "散髪";
+"haircut_color" = "散髪の色";
+"beard" = "ひげ";
+"beard_color" = "ひげの色";
+"wardrobe" = "ワードローブ";
+"outerwear" = "アウターウェア";
+"top" = "上";
+"bottom" = "下";
+"shoes" = "靴";
+"accessories" = "付属品";
+
+"notifications" = "通知";
+"time" = "時間";
+
+"support" = "サポート";
+"rate_app" = "アプリを評価する";
+"write_to_dev" = "開発者への書き込み";
+
+"my_geo" = "私の地理的位置";
+"search_placeholder" = "都市を検索する";
+
+"internet_error_title" = "接続エラー";
+"internet_error_text" = "おっとっと！インターネットはないようです。接続を確認してください。";
+"geo_error_title" = "位置情報を利用できません";
+"geo_error_text" = "現在地を取得できません。システム設定で位置情報へのアクセスを許可してください。";
+"unknown_error_title" = "何かがうまくいかなかった...";
+"unknown_error_text" = "エラーが発生しました。お問い合わせください。修正いたします。";
+"notifications_error_title" = "権限エラー";
+"notifications_error_text" = "設定で通知の許可を確認してください。";
+"go_to_settings" = "設定に移動する";
+"try_again" = "再試行";
+
+"rate_title" = "TheWearを楽しんでいますか？";
+"rate_description" = "このアプリが気に入ったか、何か言いたいことがあれば、ぜひお聞かせください。";
+"go_to_appstore" = "AppStoreにアクセスする";
+
+"extremely_cold" = "外は極寒！暖かい冬の服を着てください。";
+"frosty" = "外は霜が降りているような感じです 暖かい上着を着て、マフラーをして、帽子と手袋をしましょう。";
+"freezing" = "外は凍りそうだ! コートか上着を着て、帽子、マフラー、手袋をしてください。";
+"chilly" = "薄手の上着かコートを着てください、外は肌寒く感じます。";
+"less_chilly" = "肌寒いので、コートかパーカー付きの薄手のジャケットを着てください。";
+"cool" = "肌寒く感じるので、パーカー付きの軽いジャケットを着てください。";
+"feels_warm" = "暖かいと感じ、パーカー付きの薄手のジャケットを着る。";
+"warm_man" = "外は暖かいので、パーカーやトレーナーにジーンズを着てください。";
+"warm_woman" = "外は暖かいので、ロングスカートにパーカーやスウェットシャツを着てください。";
+"feels_warmer_man" = "暖かいと感じたら、ジーンズやショートパンツにスウェットシャツを着ます。";
+"feels_warmer_woman" = "スカートにブラウスを合わせて、暖かく感じます。";
+"really_warm_man" = "外は本当に暖かいので、ジーンズやショートパンツに長袖を着ます。";
+"really_warm_woman" = "外は本当に暖かいので、ワンピースやチュニックにスカートを合わせて。";
+"hot_man" = "外は暑いので、Tシャツにジーンズか短パンを着てください。";
+"hot_woman" = "外は暑いので、ワンピースやブラウスに薄手のスカートを合わせます。";
+"feels_hot_man" = "気持ちいい！一番軽い服を着てください。";
+"feels_hot_woman" = "気持ちいい！一番軽い服を着てください。";
+
+"extremely_cold_short" = "極寒！？防寒着を着る。";
+"frosty_short" = "霜が降りたみたい! 暖かい服を着てください。";
+"freezing_short" = "凍えそうだ! 暖かい服を着てください。";
+"chilly_short" = "薄手のジャケットやコートを着る。";
+"less_chilly_short" = "パーカーを着たコートを着てください。";
+"cool_short" = "パーカー付きの軽いジャケットを着る。";
+"feels_warm_short" = "パーカーを着た薄手のジャケットを着る。";
+"warm_man_short" = "パーカーにジーンズを合わせる。";
+"warm_woman_short" = "パーカーにロングスカートを合わせる。";
+"feels_warmer_man_short" = "ジーンズにスウェットを着る。";
+"feels_warmer_woman_short" = "ブラウスにスカートを合わせる。";
+"really_warm_man_short" = "長袖にショートパンツを合わせる。";
+"really_warm_woman_short" = "チュニックにスカートを合わせる。";
+"hot_man_short" = "Tシャツにショートパンツ";
+"hot_woman_short" = "ブラウスに薄手のスカートを合わせる。";
+"feels_hot_man_short" = "暑い! 一番薄手の服を着る。";
+"feels_hot_woman_short" = "暑い! 一番軽い服を着てください。";
+
+"gale_force_wind" = "気力強風。";
+"strong_wind" = "強風に注意。";
+
+"rain_morning" = "午前中は雨の予報。";
+"rain_afternoon" = "午後から雨の予報。";
+"rain_evening" = "夕方から雨の予報。";
+"rain_night" = "夜は雨の予報。";
+"rain_day" = "日中は雨が予想されます。";
+"rain_morning_afternoon" = "午前中と午後に雨が降る見込みです。";
+"rain_morning_evening" = "朝晩は雨の予報。";
+"rain_afternoon_evening" = "午後から夕方にかけて雨の予報。";
+"umbrella" = "傘をお忘れなく！";
+
+"snow_morning" = "午前中は雪の予報。";
+"snow_afternoon" = "午後から雪の予報。";
+"snow_evening" = "夕方から雪の予報。";
+"snow_night" = "夜は雪の予報。";
+"snow_day" = "日中は雪の予報。";
+"snow_morning_afternoon" = "午前、午後にかけて雪の予報。";
+"snow_morning_evening" = "朝晩は雪の予報。";
+"snow_afternoon_evening" = "午後から夕方にかけて雪の予報。";
+"rain_for_hour" = "近日中に雨の予報が出ています。";
+"snow_for_hour" = "近日中に雪が降ると予想されています。";
+"snow_rain" = "雪と雨が予想されます。";
+
+"check_forecast" = "アプリで天気予報をチェック。";
+"weather_forecast" = "天気予報";
+"forecast_today" = "今日の体感温度";
+"forecast_next_hour" = "今後1時間の体感温度は";
+"min" = "分";
+"max" = "最大";
+"min_temp_is" = "最低気温は";
+"max_temp_is" = "最高気温は";
+
+"explanation_title" = "あなたのワードローブ";
+"explanation_text" = "好きな服や色を選択して、メイン画面でキャラクターの外観を作成できます。";
+
+"current_weather_widget_title" = "現在の天気";
+"current_weather_widget_description" = "現在地または最後に表示された都市の実際の気温とおすすめの服装を表示します。";
+"current_weather_widget_placeholder" = "天気を読み込めなかった。アプリを開いてください。";

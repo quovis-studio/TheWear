@@ -1,0 +1,10 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+NSLocationAlwaysUsageDescription = "TheWear treba da zna vašu lokaciju da bi pružio najtačniju prognozu.";
+NSLocationUsageDescription = "TheWear treba da zna vašu lokaciju da bi pružio najtačniju prognozu.";
+NSLocationWhenInUseUsageDescription = "TheWear treba da zna vašu lokaciju da bi pružio najtačniju prognozu.";

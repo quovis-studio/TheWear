@@ -1,0 +1,10 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+NSLocationAlwaysUsageDescription = "TheWear needs to know your location to provide the most accurate forecast.";
+NSLocationUsageDescription = "TheWear needs to know your location to provide the most accurate forecast.";
+NSLocationWhenInUseUsageDescription = "TheWear needs to know your location to provide the most accurate forecast.";

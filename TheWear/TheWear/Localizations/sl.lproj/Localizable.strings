@@ -1,0 +1,227 @@
+/*
+ 
+ Copyright © 2022 Max Reshetov, Valentina Selezneva.
+ All rights reserved.
+ 
+*/
+
+"c01d" = "Sončno";
+"c01n" = "Jasno";
+"c02d" = "Oblačno";
+"c02n" = "Oblačno";
+"c03d" = "Oblačno";
+"c03n" = "Oblačno";
+"c04d" = "Oblačno";
+"c04n" = "Oblačno";
+"u00d" = "Padavine";
+"u00n" = "Padavine";
+"a01d" = "Megla";
+"a01n" = "Megla";
+"a02d" = "Dim";
+"a02n" = "Dim";
+"a03d" = "Meglica";
+"a03n" = "Meglica";
+"a04d" = "Pesek/prah";
+"a04n" = "Pesek/prah";
+"a05d" = "Megla";
+"a05n" = "Megla";
+"a06d" = "Megla";
+"a06n" = "Megla";
+"s01d" = "Rahel sneg";
+"s01n" = "Rahel sneg";
+"s02d" = "Sneg";
+"s02n" = "Sneg";
+"s03d" = "Močno sneženje";
+"s03n" = "Močno sneženje";
+"s04d" = "Sneg z dežjem";
+"s04n" = "Sneg z dežjem";
+"s05d" = "Žled";
+"s05n" = "Žled";
+"s06d" = "Sneženje";
+"s06n" = "Sneženje";
+"r01d" = "Rahel dež";
+"r01n" = "Rahel dež";
+"r02d" = "Dež";
+"r02n" = "Dež";
+"r03d" = "Močan dež";
+"r03n" = "Močan dež";
+"r04d" = "Rahel dež";
+"r04n" = "Rahel dež";
+"r05d" = "Dež";
+"r05n" = "Dež";
+"r06d" = "Močan dež";
+"r06n" = "Močan dež";
+"f01d" = "Dež";
+"f01n" = "Dež";
+"d01d" = "Rosenje";
+"d01n" = "Rosenje";
+"d02d" = "Rosenje";
+"d02n" = "Rosenje";
+"d03d" = "Rosenje";
+"d03n" = "Rosenje";
+"t01d" = "Nevihta z dežjem";
+"t01n" = "Nevihta z dežjem";
+"t02d" = "Nevihta z dežjem";
+"t02n" = "Nevihta z dežjem";
+"t03d" = "Nevihta s ploho";
+"t03n" = "Nevihta s ploho";
+"t04d" = "Nevihta s pršenjem";
+"t04n" = "Nevihta s pršenjem";
+"t05d" = "Nevihta s točo";
+"t05n" = "Nevihta s točo";
+
+"feels_like" = "Čuti se kot";
+"sunrise" = "Sončni vzhod";
+"sunset" = "Sončni zahod";
+
+"now" = "Zdaj";
+"morning" = "Jutro";
+"day" = "Dan";
+"evening" = "Večer";
+"night" = "Noč";
+
+"units" = "Enote";
+"temp" = "Temperatura";
+"celsius" = "ºC";
+"fahrenheit" = "ºF";
+"wind" = "Veter";
+"ms" = "m/s";
+"kph" = "km/h";
+"pressure" = "Pritisk";
+"hpa" = "hPa";
+"mmhg" = "mmHg";
+"visibility" = "Vidnost";
+"km" = "km";
+"mi" = "mi";
+"uv" = "UV";
+"low" = "nizka";
+"moderate" = "zmerno";
+"high" = "visoka";
+"humidity" = "Vlažnost";
+"precipitation" = "Padavine";
+"mm" = "mm";
+
+"weather_feeling" = "Vremenski občutek";
+"hotter" = "Bolj vroče";
+"colder" = "Hladnejši";
+"weather_feeling_description" = "Navedite, ali se vam zdi temperatura višja ali nižja, kot je v resnici. Pri prikazovanju lika bomo upoštevali vašo izbiro.";
+
+"person" = "Oseba";
+"show_person" = "Pokaži osebo";
+"sex" = "Spol";
+"male" = "moški";
+"female" = "ženska";
+"appearance" = "Videz";
+"skin_color" = "Barva kože";
+"haircut" = "Striženje";
+"haircut_color" = "Barva frizure";
+"beard" = "brada";
+"beard_color" = "Barva brade";
+"wardrobe" = "Garderoba";
+"outerwear" = "Vrhnja oblačila";
+"top" = "Vrh";
+"bottom" = "Spodaj";
+"shoes" = "Čevlji";
+"accessories" = "Dodatki";
+
+"notifications" = "Obvestila";
+"time" = "Čas";
+
+"support" = "Podpora";
+"rate_app" = "Ocenite aplikacijo";
+"write_to_dev" = "Pišite razvijalcem";
+
+"my_geo" = "Moja geopozicija";
+"search_placeholder" = "Iskanje mesta";
+
+"internet_error_title" = "Napaka v povezavi";
+"internet_error_text" = "Ups! Videti je, da ni interneta. Preverite povezavo.";
+"geo_error_title" = "Geolokacija ni na voljo";
+"geo_error_text" = "Oprostite, vaše lokacije ni mogoče dobiti. Dovolite dostop do svoje lokacije v sistemskih nastavitvah.";
+"unknown_error_title" = "Nekaj je šlo narobe...";
+"unknown_error_text" = "Oprostite, nekaj je šlo narobe. Prosimo, kontaktirajte nas in popravili bomo.";
+"notifications_error_title" = "Napaka dovoljenja";
+"notifications_error_text" = "Preverite svoje dovoljenje za obvestila v nastavitvah.";
+"go_to_settings" = "Pojdite v nastavitve";
+"try_again" = "Poskusite znova";
+
+"rate_title" = "Uživate v TheWear?";
+"rate_description" = "Ne glede na to, ali vam je aplikacija všeč ali želite kaj povedati, bi radi slišali.";
+"go_to_appstore" = "Pojdite v trgovino AppStore";
+
+"extremely_cold" = "Zunaj izjemno mrzlo! Oblecite topla zimska oblačila.";
+"frosty" = "Zunaj je mrzlo! Nadenite si toplo jakno, šal, klobuk in rokavice.";
+"freezing" = "Mrzlo je! Oblecite si plašč ali jakno, kapo, šal in rokavice.";
+"chilly" = "Oblecite si lahko jakno ali plašč, zunaj je mrzlo.";
+"less_chilly" = "Počuti se hladno, obleci plašč ali lahkotno jakno s kapuco.";
+"cool" = "Počuti se hladno, oblecite lahkotno jakno s kapuco.";
+"feels_warm" = "Počuti se toplo, oblecite lahkotno jakno s kapuco.";
+"warm_man" = "Zunaj je toplo, oblecite pulover s kapuco ali jopico s kavbojkami.";
+"warm_woman" = "Zunaj je toplo, oblecite pulover s kapuco ali jopico z dolgim krilom.";
+"feels_warmer_man" = "Počuti se toplo, oblecite majico s kratkimi hlačami ali kavbojkami.";
+"feels_warmer_woman" = "Zdi se toplo, oblecite bluzo s krilom.";
+"really_warm_man" = "Zunaj je zelo toplo, oblecite jopico z dolgimi rokavi in kavbojke ali kratke hlače.";
+"really_warm_woman" = "Zunaj je res toplo, oblecite obleko ali tuniko s krilom.";
+"hot_man" = "Zunaj je vroče, oblecite majico s kavbojkami ali morda kratkimi hlačami.";
+"hot_woman" = "Zunaj je vroče, oblecite obleko ali bluzo z lahkim krilom.";
+"feels_hot_man" = "Zdi se vroče! Oblecite najlažja oblačila.";
+"feels_hot_woman" = "Zdi se vroče! Oblecite najlažja oblačila.";
+
+"extremely_cold_short" = "Izjemno hladno! Oblecite se v topla oblačila.";
+"frosty_short" = "Občutek mraza! Oblecite topla oblačila.";
+"freezing_short" = "Mrzlo je! Oblecite topla oblačila.";
+"chilly_short" = "Oblecite si lahko jakno ali plašč.";
+"less_chilly_short" = "Oblecite plašč s kapuco.";
+"cool_short" = "Oblecite lahkotno jakno s kapuco.";
+"feels_warm_short" = "Oblecite lahkotno jakno s kapuco.";
+"warm_man_short" = "Oblecite majico s kapuco in kavbojke.";
+"warm_woman_short" = "Oblecite majico s kapuco z dolgim krilom.";
+"feels_warmer_man_short" = "Oblecite majico s kratkimi hlačami in kavbojke.";
+"feels_warmer_woman_short" = "Oblecite bluzo s krilom.";
+"really_warm_man_short" = "Oblecite bluzo z dolgimi rokavi in kratke hlače.";
+"really_warm_woman_short" = "Oblecite tuniko s krilom.";
+"hot_man_short" = "Oblecite majico s kratkimi hlačami.";
+"hot_woman_short" = "Oblecite bluzo z lahkim krilom.";
+"feels_hot_man_short" = "Počuti se vroče! Oblecite najlažja oblačila.";
+"feels_hot_woman_short" = "Počuti se vroče! Oblecite najlažja oblačila.";
+
+"gale_force_wind" = "Mind viharski veter.";
+"strong_wind" = "Upoštevajte močan veter.";
+
+"rain_morning" = "Zjutraj pričakovan dež.";
+"rain_afternoon" = "Popoldne pričakovan dež.";
+"rain_evening" = "Zvečer pričakovan dež.";
+"rain_night" = "Ponoči pričakovan dež.";
+"rain_day" = "Čez dan pričakujejo padavine.";
+"rain_morning_afternoon" = "Zjutraj in popoldne pričakujejo padavine.";
+"rain_morning_evening" = "Zjutraj in zvečer pričakujejo padavine.";
+"rain_afternoon_evening" = "Popoldne in zvečer pričakovane padavine.";
+"umbrella" = "Ne pozabite na dežnik!";
+
+"snow_morning" = "Zjutraj pričakovan sneg.";
+"snow_afternoon" = "Popoldne pričakovano sneženje.";
+"snow_evening" = "Zvečer pričakovan sneg.";
+"snow_night" = "Ponoči pričakovan sneg.";
+"snow_day" = "Čez dan pričakujemo sneženje.";
+"snow_morning_afternoon" = "Zjutraj in popoldne pričakujemo sneženje.";
+"snow_morning_evening" = "Zjutraj in zvečer pričakujemo sneženje.";
+"snow_afternoon_evening" = "Popoldne in zvečer pričakovano sneženje.";
+"rain_for_hour" = "V bližnji prihodnosti se pričakuje dež.";
+"snow_for_hour" = "V bližnji prihodnosti se pričakuje sneg.";
+"snow_rain" = "Pričakovan sneg in dež.";
+
+"check_forecast" = "Preverite napoved v aplikaciji.";
+"weather_forecast" = "Vremenska napoved";
+"forecast_today" = "Občutek kot temperatura za danes";
+"forecast_next_hour" = "Občutek temperature v naslednji uri je";
+"min" = "min";
+"max" = "maks";
+"min_temp_is" = "Najnižja temperatura je";
+"max_temp_is" = "najvišja temperatura je";
+
+"explanation_title" = "Vaša garderoba";
+"explanation_text" = "Izberete lahko poljubna oblačila in barve, da ustvarite videz svojega lika na glavnem zaslonu.";
+
+"current_weather_widget_title" = "Trenutno vreme";
+"current_weather_widget_description" = "Prikazuje dejansko temperaturo in priporočena oblačila za vašo trenutno lokacijo ali zadnje prikazano mesto.";
+"current_weather_widget_placeholder" = "Vremena ni bilo mogoče naložiti. Odprite aplikacijo.";
