@@ -20,7 +20,7 @@ extension SettingsSupportTableViewCell {
             
         case .writeToDev:
             UIApplication.shared.open(
-                URL(string: "mailto:thewear.info@gmail.com")!,
+                URL(string: "mailto:quovis@yandex.com")!,
                 options: [:], completionHandler: nil)
         }
     }
