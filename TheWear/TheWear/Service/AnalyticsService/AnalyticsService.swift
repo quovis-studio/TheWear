@@ -13,8 +13,8 @@ class AnalyticsService {
     static let shared = AnalyticsService()
     
     func configure() {
-        let configuration = YMMYandexMetricaConfiguration.init(apiKey: getAPIKey())
-        YMMYandexMetrica.activate(with: configuration!)
+        guard let configuration = YMMYandexMetricaConfiguration.init(apiKey: getAPIKey()) else { return }
+        YMMYandexMetrica.activate(with: configuration)
     }
     
     private func getAPIKey() -> String {
