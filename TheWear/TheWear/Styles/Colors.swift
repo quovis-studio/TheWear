@@ -24,17 +24,17 @@ enum Color {
             return trait.userInterfaceStyle == .dark ? UIColor(20, 20, 20) : UIColor(245, 245, 245)
         }
         
-        static let senary = UIColor {trait in
+        static let senary = UIColor { trait in
             return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 0.012)
         }
     }
     
     enum label {
-        static let primary = UIColor {trait in
+        static let primary = UIColor { trait in
             return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 1)
         }
         
-        static let tertiary = UIColor {trait in
+        static let tertiary = UIColor { trait in
             return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 0.4)
         }
         
