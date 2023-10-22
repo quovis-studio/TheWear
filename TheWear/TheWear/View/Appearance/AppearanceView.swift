@@ -22,10 +22,10 @@ class AppearanceView: ModalView {
     
     let personSubstrateView: UIView = {
         let view = UIView()
-        view.backgroundColor = Color.black.quinary
+        view.backgroundColor = Color.background.quinary
         view.layer.cornerCurve = .continuous
         view.layer.cornerRadius = Size.padding.medium
-        view.layer.borderColor = Color.black.senary.cgColor
+        view.layer.borderColor = Color.background.senary.cgColor
         view.layer.borderWidth = Size.system.border
         return view
     }()

@@ -13,7 +13,7 @@ class ClothesTypeCollectionViewCell: UICollectionViewCell, UIGestureRecognizerDe
     
     private let typeLabel: UILabel = {
         let label = UILabel()
-        label.textColor = Color.black.quaternary
+        label.textColor = Color.label.quaternary
         label.font = Font.title3
         return label
     }()
@@ -39,7 +39,7 @@ class ClothesTypeCollectionViewCell: UICollectionViewCell, UIGestureRecognizerDe
     
     func updateType(with text: String, current: Bool) {
         typeLabel.text = text
-        typeLabel.textColor = current ? Color.black.primary : Color.black.quaternary
+        typeLabel.textColor = current ? Color.label.primary : Color.label.quaternary
     }
     
     override init(frame: CGRect) {

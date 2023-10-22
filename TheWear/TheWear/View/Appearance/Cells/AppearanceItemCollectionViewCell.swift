@@ -119,10 +119,10 @@ class AppearanceItemCollectionViewCell: UICollectionViewCell, UIGestureRecognize
     }
     
     private func configureCell() {
-        backgroundColor = Color.black.quinary
+        backgroundColor = Color.background.quinary
         layer.cornerCurve = .continuous
         layer.cornerRadius = Size.padding.medium
-        layer.borderColor = Color.black.senary.cgColor
+        layer.borderColor = Color.background.senary.cgColor
         layer.borderWidth = Size.system.border
     }
     

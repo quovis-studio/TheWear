@@ -17,7 +17,7 @@ class WeatherService {
     let days = "https://api.weatherbit.io/v2.0/forecast/daily"
     
     func getStringLocation(with coordinates: Coordinates) -> String {
-        return"?lat=\(coordinates.latitude)&lon=\(coordinates.longitude)"
+        return "?lat=\(coordinates.latitude)&lon=\(coordinates.longitude)"
     }
     
     func getUrlString(with components: String...) -> String {

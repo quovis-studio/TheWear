@@ -13,7 +13,7 @@ class AppearancePartCollectionViewCell: UICollectionViewCell, UIGestureRecognize
     
     private let partLabel: UILabel = {
         let label = UILabel()
-        label.textColor = Color.black.quaternary
+        label.textColor = Color.label.quaternary
         label.font = Font.title3
         return label
     }()
@@ -39,7 +39,7 @@ class AppearancePartCollectionViewCell: UICollectionViewCell, UIGestureRecognize
     
     func updatePart(with text: String, current: Bool) {
         partLabel.text = text
-        partLabel.textColor = current ? Color.black.primary : Color.black.quaternary
+        partLabel.textColor = current ? Color.label.primary : Color.label.quaternary
     }
     
     override init(frame: CGRect) {

@@ -18,14 +18,14 @@ class RateView: UIView {
         view.layer.cornerCurve = .continuous
         view.layer.borderColor = Color.black.quinary.cgColor
         view.layer.borderWidth = Size.system.border
-        view.backgroundColor = Color.white.primary
+        view.backgroundColor = Color.background.primary
         return view
     }()
     
     private let closeButton: UIImageView = {
         let imageView = UIImageView(image: UIImage(named: "delete"))
         imageView.isUserInteractionEnabled = true
-        imageView.alpha = 0.08
+        imageView.tintColor = Color.background.quinary
         return imageView
     }()
     
@@ -38,7 +38,7 @@ class RateView: UIView {
         label.textAlignment = .left
         label.lineBreakMode = .byWordWrapping
         label.numberOfLines = 0
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         return label
     }()
     
@@ -49,7 +49,7 @@ class RateView: UIView {
         label.textAlignment = .left
         label.lineBreakMode = .byWordWrapping
         label.numberOfLines = 0
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         return label
     }()
     

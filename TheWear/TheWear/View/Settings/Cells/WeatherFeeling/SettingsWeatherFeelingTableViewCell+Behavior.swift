@@ -21,7 +21,7 @@ extension SettingsWeatherFeelingTableViewCell {
         case WeatherFeeling.colder.value:
             pathViewLeadingConstraint.constant = onePartWidth
             pathViewTrailingConstraint.constant = -2 * onePartWidth
-            lessColderNotchView.backgroundColor = Color.black.quinarySolid
+            lessColderNotchView.backgroundColor = Color.background.quinarySolid
             
         case WeatherFeeling.asIs.value:
             pathViewLeadingConstraint.constant = 2 * onePartWidth
@@ -30,7 +30,7 @@ extension SettingsWeatherFeelingTableViewCell {
         case WeatherFeeling.hotter.value:
             pathViewLeadingConstraint.constant = 2 * onePartWidth
             pathViewTrailingConstraint.constant = -onePartWidth
-            lessHotterNotchView.backgroundColor = Color.black.quinarySolid
+            lessHotterNotchView.backgroundColor = Color.background.quinarySolid
           
         case WeatherFeeling.muchHotter.value:
             pathViewLeadingConstraint.constant = 2 * onePartWidth

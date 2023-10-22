@@ -14,7 +14,7 @@ class SearchTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         selectionStyle = .none
-        backgroundColor = Color.white.primary
+        backgroundColor = Color.background.primary
         isExclusiveTouch = true
     }
     

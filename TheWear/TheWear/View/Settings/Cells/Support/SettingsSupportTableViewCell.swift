@@ -18,7 +18,7 @@ class SettingsSupportTableViewCell: UITableViewCell {
     private let nameLabel: UILabel = {
         let label = UILabel()
         label.font = Font.body
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.isUserInteractionEnabled = true
         label.isExclusiveTouch = true
         label.adjustsFontSizeToFitWidth = true
@@ -27,7 +27,7 @@ class SettingsSupportTableViewCell: UITableViewCell {
     }()
     
     private func configureCell() {
-        backgroundColor = Color.white.primary
+        backgroundColor = Color.background.primary
         selectionStyle = .none
     }
     

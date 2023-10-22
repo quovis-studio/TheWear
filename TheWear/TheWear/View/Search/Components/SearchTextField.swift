@@ -18,19 +18,19 @@ class SearchTextField: UITextField {
     
     private func configureAppearance() {
         autocorrectionType = .no
-        backgroundColor = Color.black.quinary
+        backgroundColor = Color.background.quinary
         layer.cornerCurve = .continuous
         layer.cornerRadius = Size.padding.small
         layer.borderColor = Color.black.senary.cgColor
         layer.borderWidth = Size.system.border
-        textColor = Color.black.primary
+        textColor = Color.label.primary
         font = Font.body
         tintColor = WeatherService.shared.currentColor
     }
     
     private func configurePlaceholder() {
         let attributes = [
-            NSAttributedString.Key.foregroundColor: Color.black.quaternary,
+            NSAttributedString.Key.foregroundColor: Color.label.quaternary,
             NSAttributedString.Key.font: Font.body
         ]
         attributedPlaceholder = NSAttributedString(

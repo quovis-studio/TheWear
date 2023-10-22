@@ -12,7 +12,7 @@ class PanView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         layer.cornerRadius = Size.system.panView.height / 2
-        backgroundColor = Color.black.quinarySolid
+        backgroundColor = Color.background.quinary
     }
     
     required init?(coder: NSCoder) {

@@ -9,6 +9,42 @@ import UIKit
 
 enum Color {
     
+    // Dynamic colors
+    
+    enum background {
+        static let primary = UIColor {
+            trait in return UIColor(white: trait.userInterfaceStyle == .dark ? 0 : 1, alpha: 1)
+        }
+        
+        static let quinary = UIColor {
+            trait in return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 0.08)
+        }
+        
+        static let quinarySolid = UIColor {
+            trait in return trait.userInterfaceStyle == .dark ? UIColor(20, 20, 20) : UIColor(245, 245, 245)
+        }
+        
+        static let senary = UIColor {
+            trait in return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 0.012)
+        }
+    }
+    
+    enum label {
+        static let primary = UIColor {
+            trait in return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 1)
+        }
+        
+        static let tertiary = UIColor {
+            trait in return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 0.4)
+        }
+        
+        static let quaternary = UIColor {
+            trait in return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 0.16)
+        }
+    }
+    
+    // Regular colors
+    
     enum white {
         static let primary = UIColor(white: 1, alpha: 1)
         static let secondary = UIColor(white: 1, alpha: 0.64)

@@ -15,7 +15,7 @@ class GeolocationTableViewCell: SearchTableViewCell {
     
     private let geoLabel: UILabel = {
         let label = UILabel()
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.font = Font.body
         label.alpha = 1
         label.textAlignment = .left
@@ -34,6 +34,7 @@ class GeolocationTableViewCell: SearchTableViewCell {
     }
     
     private func configureGeoImageView() {
+        geoImageView.tintColor = Color.label.primary
         contentView.addSubview(geoImageView)
         geoImageView.constraints(
             left: contentView.left(Size.padding.medium),

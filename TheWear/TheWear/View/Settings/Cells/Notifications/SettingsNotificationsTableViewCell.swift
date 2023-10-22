@@ -19,7 +19,7 @@ class SettingsNotificationsTableViewCell: UITableViewCell {
         let label = UILabel()
         label.text = "notifications".localized
         label.font = Font.body
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.textAlignment = .left
         return label
     }()
@@ -27,8 +27,8 @@ class SettingsNotificationsTableViewCell: UITableViewCell {
     lazy var notificationsSwitcher: UISwitch = {
         let switcher = UISwitch()
         switcher.onTintColor = WeatherService.shared.currentColor
-        switcher.subviews[0].subviews[0].backgroundColor = Color.black.quinarySolid
-        switcher.tintColor = Color.black.quinarySolid
+        switcher.subviews[0].subviews[0].backgroundColor = Color.background.quinarySolid
+        switcher.tintColor = Color.background.quinarySolid
         switcher.isOn = NotificationService.shared.notificationIsAllowed()
         switcher.isExclusiveTouch = true
         switcher.addTarget(self, action: #selector(changeSwitcher(_:)), for: .valueChanged)
@@ -39,7 +39,7 @@ class SettingsNotificationsTableViewCell: UITableViewCell {
         let label = UILabel()
         label.text = "time".localized
         label.font = Font.body
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.textAlignment = .left
         return label
     }()
@@ -47,7 +47,7 @@ class SettingsNotificationsTableViewCell: UITableViewCell {
     let timePickerView = TimePickerView()
     
     private func configureCell() {
-        backgroundColor = Color.white.primary
+        backgroundColor = Color.background.primary
         selectionStyle = .none
     }
     

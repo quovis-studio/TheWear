@@ -33,11 +33,11 @@ class AlertView: UIView {
         view.layer.borderColor = Color.black.quinary.cgColor
         view.layer.borderWidth = Size.system.border
         if style == .white {
-            view.backgroundColor = Color.white.primary
+            view.backgroundColor = Color.background.primary
         } else if style == .colored && (UIDevice.current.userInterfaceIdiom == .phone) {
             view.backgroundColor = WeatherService.shared.currentColor
         } else {
-            view.backgroundColor = Color.white.primary
+            view.backgroundColor = Color.background.primary
         }
         return view
     }()
@@ -49,11 +49,11 @@ class AlertView: UIView {
         label.lineBreakMode = .byWordWrapping
         label.numberOfLines = 0
         if style == .white {
-            label.textColor = Color.black.primary
+            label.textColor = Color.label.primary
         } else if style == .colored && (UIDevice.current.userInterfaceIdiom == .phone) {
             label.textColor = Color.white.primary
         } else {
-            label.textColor = Color.black.primary
+            label.textColor = Color.label.primary
         }
         return label
     }()
@@ -65,11 +65,11 @@ class AlertView: UIView {
         label.lineBreakMode = .byWordWrapping
         label.numberOfLines = 0
         if style == .white {
-            label.textColor = Color.black.primary
+            label.textColor = Color.label.primary
         } else if style == .colored && (UIDevice.current.userInterfaceIdiom == .phone) {
             label.textColor = Color.white.primary
         } else {
-            label.textColor = Color.black.primary
+            label.textColor = Color.label.primary
         }
         return label
     }()

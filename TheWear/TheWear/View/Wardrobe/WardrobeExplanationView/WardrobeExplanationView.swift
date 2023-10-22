@@ -100,7 +100,7 @@ class WardrobeExplanationView: ModalView {
         label.textAlignment = .left
         label.lineBreakMode = .byWordWrapping
         label.numberOfLines = 0
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         return label
     }()
     
@@ -111,7 +111,7 @@ class WardrobeExplanationView: ModalView {
         label.textAlignment = .left
         label.lineBreakMode = .byWordWrapping
         label.numberOfLines = 0
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         return label
     }()
     

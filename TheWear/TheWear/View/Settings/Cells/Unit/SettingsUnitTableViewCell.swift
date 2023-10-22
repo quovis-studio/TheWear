@@ -21,7 +21,7 @@ class SettingsUnitTableViewCell: UITableViewCell {
     let nameLabel: UILabel = {
         let label = UILabel()
         label.font = Font.body
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.textAlignment = .left
         return label
     }()
@@ -37,7 +37,7 @@ class SettingsUnitTableViewCell: UITableViewCell {
     }()
     
     private func configureCell() {
-        backgroundColor = Color.white.primary
+        backgroundColor = Color.background.primary
         selectionStyle = .none
         contentView.addSubviews(nameLabel, valueLabel)
     }

@@ -51,6 +51,7 @@ class ClothesItemCollectionViewCell: UICollectionViewCell, UIGestureRecognizerDe
         if added {
             if addedImageView == nil {
                 addedImageView = UIImageView(image: UIImage(named: "check"))
+                addedImageView.tintColor = Color.white.primary
                 contentView.addSubview(addedImageView)
                 addedImageView.constraints(
                     top: contentView.top(Size.padding.xSmall),
@@ -82,10 +83,10 @@ class ClothesItemCollectionViewCell: UICollectionViewCell, UIGestureRecognizerDe
     }
     
     private func configureCell() {
-        backgroundColor = Color.black.lessQuaternary
+        backgroundColor = Color.background.quinary
         layer.cornerCurve = .continuous
         layer.cornerRadius = Size.padding.medium
-        layer.borderColor = Color.black.senary.cgColor
+        layer.borderColor = Color.background.senary.cgColor
         layer.borderWidth = Size.system.border
     }
     

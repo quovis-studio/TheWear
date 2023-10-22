@@ -34,7 +34,7 @@ class SettingsWeatherFeelingTableViewCell: UITableViewCell {
         let view = UIView()
         view.layer.cornerRadius = 2
         view.layer.cornerCurve = .continuous
-        view.backgroundColor = Color.black.quinarySolid
+        view.backgroundColor = Color.background.quinarySolid
         return view
     }()
     
@@ -48,7 +48,7 @@ class SettingsWeatherFeelingTableViewCell: UITableViewCell {
     
     private let colderNotchView: UIView = {
         let view = UIView()
-        view.backgroundColor = Color.black.quinarySolid
+        view.backgroundColor = Color.background.quinarySolid
         view.layer.cornerRadius = 2
         view.layer.cornerCurve = .continuous
         return view
@@ -56,7 +56,7 @@ class SettingsWeatherFeelingTableViewCell: UITableViewCell {
     
     internal let lessColderNotchView: UIView = {
         let view = UIView()
-        view.backgroundColor = Color.black.quinarySolid
+        view.backgroundColor = Color.background.quinarySolid
         view.layer.cornerRadius = 2
         view.layer.cornerCurve = .continuous
         return view
@@ -72,7 +72,7 @@ class SettingsWeatherFeelingTableViewCell: UITableViewCell {
     
     internal let lessHotterNotchView: UIView = {
         let view = UIView()
-        view.backgroundColor = Color.black.quinarySolid
+        view.backgroundColor = Color.background.quinarySolid
         view.layer.cornerRadius = 2
         view.layer.cornerCurve = .continuous
         return view
@@ -80,7 +80,7 @@ class SettingsWeatherFeelingTableViewCell: UITableViewCell {
     
     private let hotterNotchView: UIView = {
         let view = UIView()
-        view.backgroundColor = Color.black.quinarySolid
+        view.backgroundColor = Color.background.quinarySolid
         view.layer.cornerRadius = 2
         view.layer.cornerCurve = .continuous
         return view
@@ -91,7 +91,7 @@ class SettingsWeatherFeelingTableViewCell: UITableViewCell {
     private let hotterLabel: UILabel = {
         let label = UILabel()
         label.font = Font.callout
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.textAlignment = .right
         label.numberOfLines = 0
         label.lineBreakMode = .byWordWrapping
@@ -102,7 +102,7 @@ class SettingsWeatherFeelingTableViewCell: UITableViewCell {
     private let colderLabel: UILabel = {
         let label = UILabel()
         label.font = Font.callout
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.textAlignment = .left
         label.numberOfLines = 0
         label.lineBreakMode = .byWordWrapping
@@ -112,7 +112,7 @@ class SettingsWeatherFeelingTableViewCell: UITableViewCell {
     
     private let explanationLabel: UILabel = {
         let label = UILabel()
-        label.textColor = Color.black.tertiary
+        label.textColor = Color.label.tertiary
         label.textAlignment = .left
         label.numberOfLines = 0
         label.lineBreakMode = .byWordWrapping
@@ -122,7 +122,7 @@ class SettingsWeatherFeelingTableViewCell: UITableViewCell {
     }()
     
     private func configureCell() {
-        backgroundColor = Color.white.primary
+        backgroundColor = Color.background.primary
         selectionStyle = .none
     }
     

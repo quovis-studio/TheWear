@@ -48,7 +48,7 @@ extension WardrobeExplanationView {
         let pointerSize = 2 * Size.icon.large
         
         headChange.addSubview(headPointerView)
-        headPointerView.backgroundColor = Color.black.quaternary
+        headPointerView.backgroundColor = Color.label.quaternary
         headPointerView.layer.cornerRadius = pointerSize / 2
         headPointerView.alpha = 0
         headPointerView.centerInSuperview(
@@ -59,7 +59,7 @@ extension WardrobeExplanationView {
         )
         
         topChange.addSubview(topPointerView)
-        topPointerView.backgroundColor = Color.black.quaternary
+        topPointerView.backgroundColor = Color.label.quaternary
         topPointerView.layer.cornerRadius = pointerSize / 2
         topPointerView.alpha = 0
         topPointerView.centerInSuperview(
@@ -70,7 +70,7 @@ extension WardrobeExplanationView {
         )
         
         bottomChange.addSubview(bottomPointerView)
-        bottomPointerView.backgroundColor = Color.black.quaternary
+        bottomPointerView.backgroundColor = Color.label.quaternary
         bottomPointerView.layer.cornerRadius = pointerSize / 2
         bottomPointerView.alpha = 0
         bottomPointerView.centerInSuperview(
@@ -81,7 +81,7 @@ extension WardrobeExplanationView {
         )
         
         shoesChange.addSubview(shoesPointerView)
-        shoesPointerView.backgroundColor = Color.black.quaternary
+        shoesPointerView.backgroundColor = Color.label.quaternary
         shoesPointerView.layer.cornerRadius = pointerSize / 2
         shoesPointerView.alpha = 0
         shoesPointerView.centerInSuperview(

@@ -158,7 +158,7 @@ extension ModalView: UIScrollViewDelegate {
     func startLoading() {
         loadingView = UIActivityIndicatorView(style: .medium)
         guard let loadingView = loadingView else { return }
-        loadingView.color = Color.black.primary
+        loadingView.color = Color.label.primary
         addSubview(loadingView)
         let topPadding = Size.padding.small + Size.icon.large + Size.padding.large + Size.cell.search
         loadingView.constraints(

@@ -18,7 +18,7 @@ class SettingsPersonTableViewCell: UITableViewCell {
         let label = UILabel()
         label.text = "show_person".localized
         label.font = Font.body
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.textAlignment = .left
         return label
     }()
@@ -26,7 +26,7 @@ class SettingsPersonTableViewCell: UITableViewCell {
     lazy var personSwitcher: UISwitch = {
         let switcher = UISwitch()
         switcher.onTintColor = WeatherService.shared.currentColor
-        switcher.subviews.first?.subviews.first?.backgroundColor = Color.black.quinarySolid
+        switcher.subviews.first?.subviews.first?.backgroundColor = Color.background.quinarySolid
         switcher.isOn = UD.shared.retrieve(Key.withPerson) ?? false
         switcher.isExclusiveTouch = true
         switcher.addTarget(self, action: #selector(changeSwitcher(_:)), for: .valueChanged)
@@ -37,7 +37,7 @@ class SettingsPersonTableViewCell: UITableViewCell {
         let label = UILabel()
         label.text = "sex".localized
         label.font = Font.body
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.textAlignment = .left
         return label
     }()
@@ -61,7 +61,7 @@ class SettingsPersonTableViewCell: UITableViewCell {
         let label = UILabel()
         label.text = "appearance".localized
         label.font = Font.body
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.textAlignment = .left
         label.isUserInteractionEnabled = true
         label.isExclusiveTouch = true
@@ -72,7 +72,7 @@ class SettingsPersonTableViewCell: UITableViewCell {
         let label = UILabel()
         label.text = "wardrobe".localized
         label.font = Font.body
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.textAlignment = .left
         label.isUserInteractionEnabled = true
         label.isExclusiveTouch = true
@@ -80,7 +80,7 @@ class SettingsPersonTableViewCell: UITableViewCell {
     }()
     
     private func configureCell() {
-        backgroundColor = Color.white.primary
+        backgroundColor = Color.background.primary
         selectionStyle = .none
     }
     

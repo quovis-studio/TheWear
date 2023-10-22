@@ -21,6 +21,7 @@ class SavedCityTableViewCell: SearchTableViewCell {
     private let deleteImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "delete")
+        imageView.tintColor = Color.label.tertiary
         imageView.isExclusiveTouch = true
         imageView.isUserInteractionEnabled = true
         return imageView
@@ -28,7 +29,7 @@ class SavedCityTableViewCell: SearchTableViewCell {
     
     private let cityLabel: UILabel = {
         let label = UILabel()
-        label.textColor = Color.black.primary
+        label.textColor = Color.label.primary
         label.font = Font.body
         label.alpha = 1
         label.textAlignment = .left
@@ -39,7 +40,7 @@ class SavedCityTableViewCell: SearchTableViewCell {
     
     private let countryLabel: UILabel = {
         let label = UILabel()
-        label.textColor = Color.black.tertiary
+        label.textColor = Color.label.tertiary
         label.font = Font.footnote1
         label.textAlignment = .left
         label.isExclusiveTouch = true

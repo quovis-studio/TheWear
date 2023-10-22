@@ -43,10 +43,10 @@ extension TimePickerView {
             delay: 0,
             options: .transitionCrossDissolve
         ) { [self] in
-            hourSystemLabel.textColor = Color.black.quaternary
-            colonLabel.textColor = Color.black.quaternary
+            hourSystemLabel.textColor = Color.label.quaternary
+            colonLabel.textColor = Color.label.quaternary
             hourTextField.textColor = WeatherService.shared.currentColor
-            minuteTextField.textColor = Color.black.quaternary
+            minuteTextField.textColor = Color.label.quaternary
         }
     }
     
@@ -60,8 +60,8 @@ extension TimePickerView {
             delay: 0,
             options: .transitionCrossDissolve
         ) { [self] in
-            hourSystemLabel.textColor = Color.black.quaternary
-            hourTextField.textColor = Color.black.quaternary
+            hourSystemLabel.textColor = Color.label.quaternary
+            hourTextField.textColor = Color.label.quaternary
             minuteTextField.textColor = WeatherService.shared.currentColor
         }
     }
@@ -73,8 +73,8 @@ extension TimePickerView {
             options: .transitionCrossDissolve
         ) { [self] in
             hourSystemLabel.textColor = WeatherService.shared.currentColor
-            hourTextField.textColor = Color.black.quaternary
-            minuteTextField.textColor = Color.black.quaternary
+            hourTextField.textColor = Color.label.quaternary
+            minuteTextField.textColor = Color.label.quaternary
         }
     }
     

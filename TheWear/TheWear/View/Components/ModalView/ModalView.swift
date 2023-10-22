@@ -40,7 +40,7 @@ class ModalView: UIView, UIGestureRecognizerDelegate {
     
     let substrateView: UIView = {
         let view = UIView()
-        view.backgroundColor = Color.white.primary
+        view.backgroundColor = Color.background.primary
         view.layer.cornerRadius = Size.padding.large
         view.layer.cornerCurve = .continuous
         if (UIDevice.current.userInterfaceIdiom == .phone) {
@@ -51,7 +51,7 @@ class ModalView: UIView, UIGestureRecognizerDelegate {
     
     let substrateShadowView: UIView = {
         let view = UIView()
-        view.backgroundColor = Color.black.quinary
+        view.backgroundColor = Color.background.quinary
         view.alpha = 0
         view.layer.cornerRadius = Size.padding.large
         view.layer.cornerCurve = .continuous

@@ -24,6 +24,7 @@ class NavigationView: UIView {
     private let settingsImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.isExclusiveTouch = true
+        imageView.tintColor = Color.white.primary
         imageView.configureSubstrateBackground()
         imageView.startPulseAnimation()
         return imageView
