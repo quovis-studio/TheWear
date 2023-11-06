@@ -86,11 +86,21 @@ class AlertView: UIView {
         label.layer.cornerCurve = .continuous
         label.clipsToBounds = true
         if style == .white {
-            label.textColor = Color.white.primary
-            label.backgroundColor = WeatherService.shared.currentColor
+            if UIScreen.main.traitCollection.userInterfaceStyle == .dark {
+                label.textColor = Color.white.primary
+                label.backgroundColor = Color.background.quinary
+            } else {
+                label.textColor = Color.white.primary
+                label.backgroundColor = WeatherService.shared.currentColor
+            }
         } else if style == .colored && (UIDevice.current.userInterfaceIdiom == .phone) {
-            label.textColor = Color.black.primary
-            label.backgroundColor = Color.white.primary
+            if UIScreen.main.traitCollection.userInterfaceStyle == .dark {
+                label.textColor = Color.white.primary
+                label.backgroundColor = Color.background.quinary
+            } else {
+                label.textColor = WeatherService.shared.currentColor
+                label.backgroundColor = Color.white.primary
+            }
         } else {
             label.textColor = Color.white.primary
             label.backgroundColor = WeatherService.shared.currentColor
