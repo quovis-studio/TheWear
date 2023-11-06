@@ -16,7 +16,7 @@ extension SettingsWeatherFeelingTableViewCell {
         case WeatherFeeling.muchColder.value:
             pathViewLeadingConstraint.constant = 0
             pathViewTrailingConstraint.constant = -2 * onePartWidth
-            lessColderNotchView.backgroundColor = WeatherService.shared.currentColor
+            lessColderNotchView.backgroundColor = Color.label.secondarySolid
             
         case WeatherFeeling.colder.value:
             pathViewLeadingConstraint.constant = onePartWidth
@@ -35,7 +35,7 @@ extension SettingsWeatherFeelingTableViewCell {
         case WeatherFeeling.muchHotter.value:
             pathViewLeadingConstraint.constant = 2 * onePartWidth
             pathViewTrailingConstraint.constant = 0
-            lessHotterNotchView.backgroundColor = WeatherService.shared.currentColor
+            lessHotterNotchView.backgroundColor = Color.label.secondarySolid
             
         default:
             pathViewLeadingConstraint.constant = 2 * onePartWidth

@@ -25,7 +25,7 @@ class SettingsPersonTableViewCell: UITableViewCell {
     
     lazy var personSwitcher: UISwitch = {
         let switcher = UISwitch()
-        switcher.onTintColor = WeatherService.shared.currentColor
+        switcher.onTintColor = Color.label.secondary
         switcher.subviews.first?.subviews.first?.backgroundColor = Color.background.quinarySolid
         switcher.isOn = UD.shared.retrieve(Key.withPerson) ?? false
         switcher.isExclusiveTouch = true
@@ -45,7 +45,7 @@ class SettingsPersonTableViewCell: UITableViewCell {
     let genderValueLabel: UILabel = {
         let label = UILabel()
         label.font = Font.body
-        label.textColor = WeatherService.shared.currentColor
+        label.textColor = Color.label.secondary
         label.textAlignment = .right
         label.isUserInteractionEnabled = true
         label.isExclusiveTouch = true

@@ -13,7 +13,11 @@ enum Color {
     
     enum background {
         static let primary = UIColor { trait in
-            return UIColor(white: trait.userInterfaceStyle == .dark ? 0 : 1, alpha: 1)
+            return trait.userInterfaceStyle == .dark ? UIColor(15, 15, 15) : UIColor(255, 255, 255)
+        }
+        
+        static let secondarySolid = UIColor { trait in
+            return trait.userInterfaceStyle == .dark ? UIColor(100, 100, 100) : UIColor(10, 10, 10)
         }
         
         static let quinary = UIColor { trait in
@@ -34,8 +38,16 @@ enum Color {
             return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 1)
         }
         
+        static let secondary = UIColor { trait in
+            return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 0.64)
+        }
+        
+        static let secondarySolid = UIColor { trait in
+            return trait.userInterfaceStyle == .dark ? UIColor(168, 168, 168) : UIColor(92, 92, 92)
+        }
+        
         static let tertiary = UIColor { trait in
-            return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 0.4)
+            return UIColor(white: trait.userInterfaceStyle == .dark ? 1 : 0, alpha: 0.32)
         }
         
         static let quaternary = UIColor { trait in

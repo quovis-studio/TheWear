@@ -29,7 +29,7 @@ class SettingsUnitTableViewCell: UITableViewCell {
     let valueLabel: UILabel = {
         let label = UILabel()
         label.font = Font.body
-        label.textColor = WeatherService.shared.currentColor
+        label.textColor = Color.label.secondary
         label.textAlignment = .right
         label.isUserInteractionEnabled = true
         label.isExclusiveTouch = true

@@ -12,7 +12,7 @@ class TimeTextField: UITextField {
     init(textAlignment: NSTextAlignment) {
         super.init(frame: .zero)
         font = Font.body
-        textColor = WeatherService.shared.currentColor
+        textColor = Color.label.secondary
         tintColor = .clear
         self.textAlignment = textAlignment
         keyboardType = .asciiCapableNumberPad

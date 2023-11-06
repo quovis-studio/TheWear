@@ -42,10 +42,10 @@ extension TimePickerView: UIGestureRecognizerDelegate {
             delay: 0,
             options: .transitionCrossDissolve
         ) { [self] in
-            hourSystemLabel.textColor = WeatherService.shared.currentColor
-            colonLabel.textColor = WeatherService.shared.currentColor
-            hourTextField.textColor = WeatherService.shared.currentColor
-            minuteTextField.textColor = WeatherService.shared.currentColor
+            hourSystemLabel.textColor = Color.label.secondary
+            colonLabel.textColor = Color.label.secondary
+            hourTextField.textColor = Color.label.secondary
+            minuteTextField.textColor = Color.label.secondary
         }
     }
     

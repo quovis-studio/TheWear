@@ -21,11 +21,11 @@ class SearchTextField: UITextField {
         backgroundColor = Color.background.quinary
         layer.cornerCurve = .continuous
         layer.cornerRadius = Size.padding.small
-        layer.borderColor = Color.black.senary.cgColor
+        layer.borderColor = Color.background.senary.cgColor
         layer.borderWidth = Size.system.border
         textColor = Color.label.primary
         font = Font.body
-        tintColor = WeatherService.shared.currentColor
+        tintColor = Color.label.primary
     }
     
     private func configurePlaceholder() {

@@ -35,7 +35,11 @@ class AlertView: UIView {
         if style == .white {
             view.backgroundColor = Color.background.primary
         } else if style == .colored && (UIDevice.current.userInterfaceIdiom == .phone) {
-            view.backgroundColor = WeatherService.shared.currentColor
+            if UIScreen.main.traitCollection.userInterfaceStyle == .dark {
+                view.backgroundColor = Color.background.quinary
+            } else {
+                view.backgroundColor = WeatherService.shared.currentColor
+            }
         } else {
             view.backgroundColor = Color.background.primary
         }
@@ -85,7 +89,7 @@ class AlertView: UIView {
             label.textColor = Color.white.primary
             label.backgroundColor = WeatherService.shared.currentColor
         } else if style == .colored && (UIDevice.current.userInterfaceIdiom == .phone) {
-            label.textColor = WeatherService.shared.currentColor
+            label.textColor = Color.black.primary
             label.backgroundColor = Color.white.primary
         } else {
             label.textColor = Color.white.primary

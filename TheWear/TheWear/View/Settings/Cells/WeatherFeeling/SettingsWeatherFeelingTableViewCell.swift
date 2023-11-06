@@ -42,7 +42,7 @@ class SettingsWeatherFeelingTableViewCell: UITableViewCell {
         let view = UIView()
         view.layer.cornerRadius = 2
         view.layer.cornerCurve = .continuous
-        view.backgroundColor = WeatherService.shared.currentColor
+        view.backgroundColor = Color.label.secondarySolid
         return view
     }()
     
@@ -64,7 +64,7 @@ class SettingsWeatherFeelingTableViewCell: UITableViewCell {
     
     private let asIsNotchView: UIView = {
         let view = UIView()
-        view.backgroundColor = WeatherService.shared.currentColor
+        view.backgroundColor = Color.label.secondarySolid
         view.layer.cornerRadius = 2
         view.layer.cornerCurve = .continuous
         return view

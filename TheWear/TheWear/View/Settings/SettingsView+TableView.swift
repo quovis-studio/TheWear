@@ -192,7 +192,7 @@ extension SettingsView: UITableViewDelegate, UITableViewDataSource {
         label.text = settingsModel[section].name.localizedString
         label.font = Font.footnote2
         label.textAlignment = .left
-        label.textColor = Color.black.tertiary
+        label.textColor = Color.label.quaternary
         headerView.addSubview(label)
         label.constraints(
             left: headerView.left(Size.padding.medium),

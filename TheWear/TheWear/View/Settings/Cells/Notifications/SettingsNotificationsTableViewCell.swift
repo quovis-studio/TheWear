@@ -26,9 +26,8 @@ class SettingsNotificationsTableViewCell: UITableViewCell {
     
     lazy var notificationsSwitcher: UISwitch = {
         let switcher = UISwitch()
-        switcher.onTintColor = WeatherService.shared.currentColor
+        switcher.onTintColor = Color.label.secondary
         switcher.subviews[0].subviews[0].backgroundColor = Color.background.quinarySolid
-        switcher.tintColor = Color.background.quinarySolid
         switcher.isOn = NotificationService.shared.notificationIsAllowed()
         switcher.isExclusiveTouch = true
         switcher.addTarget(self, action: #selector(changeSwitcher(_:)), for: .valueChanged)

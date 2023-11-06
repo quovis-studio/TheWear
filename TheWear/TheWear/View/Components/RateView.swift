@@ -62,7 +62,11 @@ class RateView: UIView {
         label.layer.cornerCurve = .continuous
         label.clipsToBounds = true
         label.textColor = Color.white.primary
-        label.backgroundColor = WeatherService.shared.currentColor
+        if UIScreen.main.traitCollection.userInterfaceStyle == .dark {
+            label.backgroundColor = Color.background.quinary
+        } else {
+            label.backgroundColor = WeatherService.shared.currentColor
+        }
         return label
     }()
     

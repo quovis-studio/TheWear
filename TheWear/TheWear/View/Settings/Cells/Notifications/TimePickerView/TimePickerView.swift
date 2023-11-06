@@ -19,7 +19,7 @@ class TimePickerView: UIView {
         let label = UILabel()
         label.font = Font.body
         label.text = ":"
-        label.textColor = WeatherService.shared.currentColor
+        label.textColor = Color.label.secondary
         label.textAlignment = .center
         return label
     }()
@@ -31,7 +31,7 @@ class TimePickerView: UIView {
         let label = UILabel()
         label.font = Font.body
         label.alpha = CalendarAndLocaleService.shared.isTwelveTimePreference() ? 1 : 0
-        label.textColor = WeatherService.shared.currentColor
+        label.textColor = Color.label.secondary
         label.textAlignment = .right
         label.isUserInteractionEnabled = false
         label.isExclusiveTouch = true
