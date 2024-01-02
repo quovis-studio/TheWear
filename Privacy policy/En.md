@@ -32,24 +32,30 @@
 
 3.4 Information about the choice of appearance and wardrobe of the User's character is not collected or transferred to third-party services. This information is used for illustrative purposes only.
 
-## 4 Collecting and processing data of the User’s interaction with the Application
+## 4 Liability
 
-4.1 The Application uses Yandex's AppMetrica SDK (hereinafter - Analytics Service), which collects data about the User's actions in the Application.
+4.1 We do not guarantee the accuracy of the weather data and its interpretation in the form of clothing on a character or any comments regarding weather descriptions and clothing recommendations in the App and in notifications.
 
-4.2 While using the Application data about the actions performed by the User, such as opening the Application and its screens or pressing buttons, is sent to the Analytics Service.
+4.2 The choice of clothing is at the discretion of the User, for which the Developers are not responsible.
 
-4.3 During data transmission about the performed actions the Analytics Service does not collect the User's advertising identifier (IDFA).
+## 5 Collecting and processing data of the User’s interaction with the Application
 
-4.4 Further data processing policy is described in [the Analytics Service documents](https://yandex.com/legal/metrica_eea_termsofuse/).
+5.1 The Application uses Yandex's AppMetrica SDK (hereinafter - Analytics Service), which collects data about the User's actions in the Application.
 
-4.5 The User can contact the Analytics Service directly by e-mail in case of any questions about the processing and use of data about performed actions.
+5.2 While using the Application data about the actions performed by the User, such as opening the Application and its screens or pressing buttons, is sent to the Analytics Service.
 
-## 5 Changes to the Privacy Policy
+5.3 During data transmission about the performed actions the Analytics Service does not collect the User's advertising identifier (IDFA).
+
+5.4 Further data processing policy is described in [the Analytics Service documents](https://yandex.com/legal/metrica_eea_termsofuse/).
+
+5.5 The User can contact the Analytics Service directly by e-mail in case of any questions about the processing and use of data about performed actions.
+
+## 6 Changes to the Privacy Policy
 
 Developers reserves the right to make changes to the Policy at any time by giving notice to the User on this page and possibly within the Application and/or – as far as technically and legally feasible – sending a notice to the User via any contact information available to the Developers. It is strongly recommended to check this page regularly.
 
-## 6 Contacts
+## 7 Contacts
 
 User can contact Developers if he has any questions about data protection or the Policy regarding the Application via quovis@yandex.com.
 
-2023
+2024
